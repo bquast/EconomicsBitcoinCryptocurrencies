@@ -1,0 +1,756 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage[authordate,natbib,backend=biber]{biblatex-chicago}
+
+\usepackage{glossaries}
+
+% add the bibliography file (linux location)
+\addbibresource{~/EconomicsBitcoinCryptocurrencies/bibliography.bib} 
+
+\input{glossaries.tex}
+
+\makeglossaries
+
+\let\nomenclature\gls
+\end_preamble
+\use_default_options true
+\begin_modules
+biblatex
+\end_modules
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Economics of Bitcoin and Cryptocurrenies"
+\pdf_author "Bastiaan Quast"
+\pdf_keywords "bitcoin, cryptocurrencies, economics"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+The Economics of Bitcoin and Cryptocurrencies
+\end_layout
+
+\begin_layout Author
+Bastiaan Quast
+\end_layout
+
+\begin_layout Address
+The Graduate Institute
+\end_layout
+
+\begin_layout Address
+Mainson de la Paix
+\end_layout
+
+\begin_layout Address
+Chemin de Eugene Rigot 2
+\end_layout
+
+\begin_layout Address
+Case Postal 136, 1211 Geneve 21
+\end_layout
+
+\begin_layout Address
+Geneva
+\end_layout
+
+\begin_layout Address
+Switzerland
+\end_layout
+
+\begin_layout Chapter*
+About the author
+\end_layout
+
+\begin_layout Standard
+Bastiaan Quast is a PhD Candidate in Development Economics at The Graduate
+ Institute of International and Development Studies in Geneva.
+\end_layout
+
+\begin_layout Standard
+He holds a Master in Quantitative Economics and Finance from the University
+ of St.
+ Gallen in Switzerland as well as a Bachelor in Theoretical Philosophy and
+ a Bachelor in Economics from the University of Groningen in The Netherlands.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+In 2009 the online currency
+\series bold
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Bitcoin"
+description " "
+
+\end_inset
+
+
+\series default
+ was launched by an anonymous developer known by the pseudonym 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Satoshi Nakamoto"
+description " "
+
+\end_inset
+
+.
+ The Bitcoin system was based on a 2008 white paper by the same author 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nakamoto2008bitcoin"
+
+\end_inset
+
+.
+ Besides the fact that Bitcoin exist only digitally, its defining characteristic
+s are decentralisation and openness.
+ and every aspect of it is public and 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "open source"
+description " "
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+This quickly led to the launching of several alternative online currencies,
+ based on the Bitcoin protocol.
+ A currency based on cryptography, such as Bitcoin, is know as a 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "cryptocurrency"
+description " "
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This book discusses the basic principles of the Bitcoin system, as well
+ as those of many other Bitcoin-derived cryptocurrencies, as well as how
+ these cryptocurrencies can be analysed from an economic perspective.
+\end_layout
+
+\begin_layout Standard
+Cryptocurrencies come with an extensive new terminology, for reference,
+ a glossary is provided in the back of the book.
+\end_layout
+
+\begin_layout Chapter
+What is Bitcoin?
+\end_layout
+
+\begin_layout Standard
+From a technical perspective there are many innovative features to Bitcoin,
+ and I will begin by highlighting the key ones.
+ 
+\end_layout
+
+\begin_layout Standard
+Bitcoin is a confusing term.
+ It is both a monetary unit of denomination, such as Swiss franc, euro,
+ or pound sterling, as well as, a monetary system as a whole, including
+ the protocol, the network, and all participants.
+ To distinguish between the two, the system Bitcoin is written with a capital
+ letter B, the monetary unit of account is 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "bitcoin"
+description " "
+
+\end_inset
+
+, with a small letter b.
+ Lastly, there is the original Bitcoin software which is called
+\series bold
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Bitcoin-Qt"
+description " "
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Bitcoin is built from the ground up to be decentralised and anonymous.
+ All software is open source and publicly available.
+ Anybody can perform any function within the network (user or node), there
+ is no central or essential node, there is redundancy in every aspect.
+\end_layout
+
+\begin_layout Standard
+The essential principle is that every user has a piece of software on their
+ computer, a
+\series bold
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "wallet"
+description " "
+
+\end_inset
+
+
+\series default
+, which contains a set of public addresses (like bank account numbers),
+ each address is mathematically linked with a 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "private key"
+description " "
+
+\end_inset
+
+
+\series default
+ (like a password).
+ Using this secret key, users can create a digital 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "signature"
+description " "
+
+\end_inset
+
+, to prove that they are the owner of an address.
+ This signature, together with a transaction is sent to a bitcoin 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "miner"
+description "A computer which directs computing power towards verification of the integrity of the Bitcoin system. Mining is rewarded with rewards and transaction fees."
+
+\end_inset
+
+
+\series default
+.
+ The miner is a node in the network, which verifies that the address and
+ signature are linked, after which the transaction is recorded in the public
+ ledger, or 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "blockchain"
+description " "
+
+\end_inset
+
+
+\series default
+ and disseminated throughout the network.
+\end_layout
+
+\begin_layout Standard
+There are a number of other features which are important to highlight.
+ Bitcoins are created through a process called mining, this is a computationally
+ intensive process used as the mechanism for transaction verification.
+ The Bitcoins created as a reward for mining becomes incrementally smaller,
+ until finally becoming zero.
+ This is predicted to be around the year 2140, and at that point around
+ 21 million bitcoins will have been created.
+ There will never be more bitcoins in the system.
+ Furthermore, bitcoins will be lost if private keys are lost, these will
+ never be recovered.
+ The system is thus strictly deflationary.
+ To keep transactions of every size possible, bitcoins are highly granular,
+ every bitcoin can be divided into a hundred million 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "satoshi"
+description " "
+
+\end_inset
+
+
+\series default
+ (named after the pseudonym of the creator).
+\end_layout
+
+\begin_layout Chapter
+Why use Bitcoin?
+\end_layout
+
+\begin_layout Standard
+There are some key benefits to cryptocurrencies, a few of which I will mention
+ here.
+ Firstly, the system is self-regulating, meaning that no government or instituti
+on controls it.
+ For the user that means that their holdings cannot be used as a policy
+ instrument.
+ Conventional fiat currencies are owned by a government, which means that
+ they can be used to e.g.
+ stimulate economic growth by printing extra money, which lessens the value
+ of individuals holdings.
+\end_layout
+
+\begin_layout Standard
+Secondly, users control their own holdings on their own computer, which
+ eliminates the need for a bank.
+ This brings the advantage that users are not dependent on open hours, waiting
+ lines, or e-banking websites, it also means no fees.
+ Additionally a user's holdings cannot be wiped out by his or her bank bankrupti
+ng after speculative investing or something of that sort.
+\end_layout
+
+\begin_layout Standard
+Thirdly, transactions are as easy, instant, and costless as sending an email.
+ Bitcoin exists online digitally, which means that there is no physical
+ counterpart that needs to be moved, such as with gold, or paper money.
+ Additionally, it is equally valid across countries, which means that there
+ is no need to exchange it.
+ This makes Bitcoin an ideal mechanism for remittances, which nowadays can
+ cost as much as 10 percent.
+ Additionally no government can apply capital restrictions on these remittances.
+\end_layout
+
+\begin_layout Standard
+Lastly, the instant nature of transactions means it is well suited for online
+ retailing.
+ Credit card transactions seem instant, but in fact are not.
+ A significant percentage is in fact reversed after initial clearance.
+ This is very costly for retailers, this often occurs after packaging of
+ shipping has started.
+\end_layout
+
+\begin_layout Chapter
+Is Bitcoin money?
+\end_layout
+
+\begin_layout Standard
+Let's hold cryptocurrencies again the traditional standard of what constitutes
+ money.
+ The standard criteria are:
+\end_layout
+
+\begin_layout Enumerate
+medium of exchange
+\end_layout
+
+\begin_layout Enumerate
+unit of account
+\end_layout
+
+\begin_layout Enumerate
+store of value
+\end_layout
+
+\begin_layout Standard
+The criteria (1.) and (3.) are clearly fulfilled.
+ Since cryptocoins are virtual goods, and multiple copies can be made, there
+ is no degeneration over time.
+ Furthermore, cryptocoins are a good medium of exchange, transactions are
+ quick and relatively cost less.
+ The unit of account is not a criterium that is currently well met.
+ The volatility of cryptocurrencies vis-a-vis fiat currencies makes it difficult
+ to denominate goods or services in these in cryptocoins.
+ However, in that sense it is again similar to gold, which also has a highly
+ volatile price as denoted in fiat currency.
+\end_layout
+
+\begin_layout Chapter
+Bimetallism in Bitcoin and Litecoin?
+\end_layout
+
+\begin_layout Standard
+The situation of multiple currencies, especially in light of the gold analogy,
+ brings to mind the idea of bimetallism, the monetary system where the currency
+ is based not just on gold, but also on silver.
+ The two being interchangeable at a fixed rate.
+\end_layout
+
+\begin_layout Standard
+Also in the light of bimetallism, we can consider Gresham's law.
+ Bad money drives out good.
+ In the case of bimetallism, the most circulated specie will be the one
+ which is currently considered to be undervalued by the official exchange
+ rate.
+ Meaning that if silver becomes more abundant, its relative value will decrease,
+ and people will first spend their silver coins, before they spend their
+ gold ones.
+ Since exchange rates between cryptocurrencies are freely floating, there
+ is no 'bad money', since each currency is valued at market rate.
+ Interestingly enough, the rate between Bitcoin and Litecoin seems to trade
+ in a very narrow band, especially considering the volatility vis-a-vis
+ fiat currencies.
+ 
+\end_layout
+
+\begin_layout Standard
+However, there is a crowding out of sort.
+ This is perhaps best compared to international currency competition.
+ Where there is a competition for the privilege of being a reserve currency.
+ A foreign investor can choose exchange his national fiat currency for e.g.
+ the US Dollar or the Euro.
+ In these markets, the good currencies drive out the bad.
+\end_layout
+
+\begin_layout Chapter
+Cryptocurrencies and Inflation
+\end_layout
+
+\begin_layout Standard
+As the value of bitcoin goes up, more people will choose to engage in the
+ lucrative mining.
+ As extra computational power comes in, the difficulty of mining automatically
+ goes up, which means more computing power is used for the same transactions.
+ This is necessary to safeguard the integrity of the network.
+\end_layout
+
+\begin_layout Standard
+Having established the key features of the Bitcoin system, we will now focus
+ on two often heard economic concerns about the Bitcoin system.
+ Namely the issue of deflation and the issue of socially wasteful mining.
+\end_layout
+
+\begin_layout Standard
+As mentioned above, there will only ever be around 21 million bitcoins,
+ and some will be lost, this makes the system deflationary, which is troubling
+ to economists.
+ Deflation provides a disincentive to spend, causing economic slowdown 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "see e.g."
+key "fisher1933debt"
+
+\end_inset
+
+.
+ Since deflation causes the price of products to fall, it incentivises people
+ to save ans spend later.
+ Additionally, these savings are not invested properly, since deflation
+ simultaneously provides a disincentive for borrowers, by making future
+ paybacks more expensive, raising the effective interest rate.
+\end_layout
+
+\begin_layout Chapter
+Is mining socially wasteful?
+\end_layout
+
+\begin_layout Standard
+The second issue is the value of the mining process.
+ As described above, the process of mining is the solving of computational
+ problems, in order to secure the integrity of the Bitcoin network.
+ However, the actual social value of the arithmetic solution itself is zero,
+ since it has no application other than Bitcoin integrity.
+ As the number of bitcoins is limited, and more money is invested in it,
+ the value can only increase.
+ The increase in value will make it more lucrative to engage in bitcoin
+ mining, which means more computational power will be devoted to this.
+ To keep the system secure in face of this extra computing power, the difficulty
+ goes up.
+ However, if the extra power had not come in, this would not have been necessary.
+ The extra computers which engage in bitcoin mining thus do not add any
+ social value.
+\end_layout
+
+\begin_layout Standard
+It has to be noted, that the bar for social value is being set very high.
+ Extraction, storage, and transfer of value is a resource intensive enterprise.
+ Consider the gold mining industry (note, this is the origin of the term
+ bitcoin mining).
+ The extraction of gold is a very resource intensive, dangerous, and pollutive
+ process.
+ After the extraction, purification, and moulding, most gold is stored highly
+ guarded in vaults.
+ Finally then, gold can be utilised to conduct transactions, which involves
+ shipping bars of gold across the ocean under maximum security, only to
+ be stored in another highly protected vault, upon arrival 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "see e.g."
+key "friedman2008monetary"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The solution for both these lies in the multiplicity of cryptocurrencies.
+ As mentioned above, every aspect of Bitcoin is open and publicly accessible,
+ it is therefore relatively easy to start an alternative Bitcoin, and this
+ has been done.
+ There are in fact many currencies based on the Bitcoin protocol, collectively
+ referred to as cryptocurrencies.
+ It is relatively easy and cheap to construct a cryptocurrency, whereby
+ the number of available coins can be set by the creator.
+ The most popular alternative to Bitcoin is called Litecoin, its main difference
+ is that it processes transactions faster, and the total number of coins
+ is four times as high.
+ Aside Litecoin, there are many other alternative cryptocurrencies, most
+ of which never gain momentum and the value of which remains only trivially
+ above zero.
+ However, a significant number does succeed.
+ The momentum mechanism could perhaps best be compared with a positive variation
+ on currency attacks 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "obstfeld1986rational,obstfeld1995logic,obstfeld1996models"
+
+\end_inset
+
+.
+ Unlike the creation of new coins in an existing cryptocurrency, the creation
+ of new cryptocurrencies is relatively cheap.
+\end_layout
+
+\begin_layout Standard
+The key point to observe here, is that cryptocurrencies do have value, but
+ only as a transaction mechanism.
+ Hereby the biggest bottleneck is probably the number of cryptocurrencies
+ that merchants are willing the accept simultaneously.
+ However, due to their similarity, it is very straightforward for e.g.
+ merchants to accept multiple currencies.
+ When we combine the value with the relatively cost-less creation of cryptocurre
+ncies, we see an equilibrium in the number of cryptocurrencies that is far
+ higher than in the current situation.
+\end_layout
+
+\begin_layout Standard
+Inflation is impossible within the Bitcoin network, as well as within most
+ other cryptocurrencies.
+ However, inflation in the cryptocurrency economy is still possible, through
+ an expansion the number of cryptocurrencies.
+\end_layout
+
+\begin_layout Standard
+It is also through this multiplicity that wasteful mining will be limited.
+ As noted above, cryptocurrencies have value, because they are effective
+ mechanisms for transactions.
+ However, this is the only source of value.
+ If a cryptocurrency becomes too expensive (which causes excessive mining),
+ a new, lower valued, cryptocurrency will arise.
+ Since the value of this currency is lower, but it is equally effective
+ in transactions, value will flow out of the overvalued cryptocurrency and
+ into the undervalued one.
+ This lowers the value of the overvalued cryptocurrency, and less mining
+ will be done here, reducing the waste.
+\end_layout
+
+\begin_layout Chapter
+Conclusion
+\end_layout
+
+\begin_layout Standard
+In conclusion, cryptocurrencies such as Bitcoin have an enormous potential
+ as a transaction mechanism, giving users control of their own holdings
+ and making transactions instant and costs negligible.
+ Two commonly heard issues with cryptocurrencies are deflation and wasteful
+ mining.
+ It can be shown that these issues are not pervasive, when the cryptocurrency
+ economy as a whole is considered.
+ Cryptocurrencies derive their value only from being an efficient transaction
+ mechanism, if they appear to become overvalued (causing excessive mining),
+ other cryptocurrencies will arise.
+ This will increase the total number of cryptocoins (between all cryptocurrencie
+s), which will drive down the price, and limit excessive mining.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliography"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "auto"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printglossaries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
