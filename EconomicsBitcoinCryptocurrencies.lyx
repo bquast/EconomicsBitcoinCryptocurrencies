@@ -4,6 +4,8 @@
 \begin_header
 \textclass book
 \begin_preamble
+\usepackage{bookmark}
+
 \usepackage[authordate,natbib,backend=biber]{biblatex-chicago}
 
 \usepackage[toc]{glossaries}
@@ -175,7 +177,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\align center
 \begin_inset ERT
 status open
 
@@ -217,7 +218,28 @@ description " "
 \end_inset
 
 .
- The Bitcoin system was based on a 2008 white paper by the same author 
+ Initially the project remained fairly low key, have only a small group
+ of geeks participate in it.
+ However, in 2013 Bitcoin quickly became a mainstream phenomenon as it was
+ reported on in the mainstream media such as The Economics, Time Magaine,
+ The New York Times, and many more.
+ This increased attention created a surge in the uptake of Bitcoin both
+ as an investment as well as transaction mechanism.
+ However, Bitcoin also has a dark side, being initially used mostly to purchase
+ illicit goods on online marketplaces such The Silk Road, websites that
+ are generally only available through the dark web.
+ However, the rise in popular attention has also brought the attention of
+ regulators, which has caused many of the illegal marketplaces to be taken
+ offline, as well as introduced a range of fiscal regulation, dealing with
+ bitcoin.
+ This book provides a laymens introduction to the basic principles of Bitcoin
+ and other online currencies, as well as discuss how this new phenomenon
+ can be viewed from an economic perspective, and what that would mean for
+ the development of such systems.
+\end_layout
+
+\begin_layout Standard
+The Bitcoin system was based on a 2008 white paper by the same author 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "nakamoto2008bitcoin"
@@ -225,8 +247,12 @@ key "nakamoto2008bitcoin"
 \end_inset
 
 .
- Besides the fact that Bitcoin exist only digitally, its defining characteristic
-s are decentralisation and openness.
+ 
+\end_layout
+
+\begin_layout Standard
+Besides the fact that Bitcoin exist only digitally, its defining characteristics
+ are decentralisation and openness.
  and every aspect of it is public and 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
@@ -254,14 +280,12 @@ description " "
 \end_layout
 
 \begin_layout Standard
-This book discusses the basic principles of the Bitcoin system, as well
- as those of many other Bitcoin-derived cryptocurrencies, as well as how
- these cryptocurrencies can be analysed from an economic perspective.
-\end_layout
-
-\begin_layout Standard
 Cryptocurrencies come with an extensive new terminology, for reference,
  a glossary is provided in the back of the book.
+\end_layout
+
+\begin_layout Part
+Basic principles
 \end_layout
 
 \begin_layout Chapter
@@ -379,7 +403,7 @@ description " "
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "miner"
-description "A computer which directs computing power towards verification of the integrity of the Bitcoin system. Mining is rewarded with rewards and transaction fees."
+description " "
 
 \end_inset
 
@@ -481,13 +505,70 @@ Lastly, the instant nature of transactions means it is well suited for online
 \end_layout
 
 \begin_layout Chapter
+Is Bitcoin Legal?
+\end_layout
+
+\begin_layout Standard
+The short answer is yet, of course this does not mean that anything that
+ you use Bitcoin for is legal.
+ That is to say, it is still illegal to purchase elicit goods, or hide holdings
+ from the tax bureau.
+\end_layout
+
+\begin_layout Chapter
 Is Bitcoin money?
 \end_layout
 
 \begin_layout Standard
-Let's hold cryptocurrencies again the traditional standard of what constitutes
- money.
- The standard criteria are:
+What is money? Some answers are obvious, well established currencies such
+ as the US Dollar are.
+ But the Euro is not a national currency, it is not owned by a state.
+ Zimbabwe owns their own currency, but this has become essentially useless.
+ What if money is moved from one, bank account to another bank account at
+ the same bank in the same country, through ebanking.
+ No physical change will occur (save for a few bits on a computer driver
+ somewhere in some remote datacentre).
+ In some places sea shells or other rare commodities such a gold or ivory
+ are accepted.
+ Just as the number of possible moneys is alsmost infiniate, so is the number
+ of definitions, but a comptemporary (pre-Bitcoin) consensus would dictate
+ somethink like: 
+\end_layout
+
+\begin_layout Quotation
+an object or entry in a record that is generally accepted as payment for
+ goods and services and debts in a certain socio-economic context or country
+ 
+\color red
+CITE!!
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+We can observe a number of things from this definition.
+ Firstly, money does not have to be an object (such as a coin), but can
+ also be an entry in a record (such as a bank account balance).
+ Secondly, it assumed to be generally accepted (though not universally).
+ Thirdly, a money is not limited to only being accepted in a country, but
+ can also be accepted in a certain context.
+ Lastly, the existance of one money does not rule out the existance of others.
+\end_layout
+
+\begin_layout Standard
+Bitcoin, the blockchain public ledger is a record.
+ Generally accepted, but generally accepted within a certain context.
+ Also, coexcistance of moneys.
+\end_layout
+
+\begin_layout Standard
+The question of whether Bitcoin is money is a complicated question, there
+ are some standard which are used in academia to evaluate whether something
+ is money or not.
+ Besides this there are the issues of legal tender, and legal recognition.
+ We will start by discussion the academic criteria for a money, after which
+ we will look at legal tender and legal recognition.
+ The standard criteria used in academia for analysing money are:
 \end_layout
 
 \begin_layout Enumerate
@@ -495,11 +576,16 @@ medium of exchange
 \end_layout
 
 \begin_layout Enumerate
-unit of account
+unit of account or numéraire
 \end_layout
 
 \begin_layout Enumerate
 store of value
+\end_layout
+
+\begin_layout Standard
+These criteria can broadly be interpreted as follow.
+ A medium of exchange
 \end_layout
 
 \begin_layout Standard
@@ -509,10 +595,54 @@ The criteria (1.) and (3.) are clearly fulfilled.
  Furthermore, cryptocoins are a good medium of exchange, transactions are
  quick and relatively cost less.
  The unit of account is not a criterium that is currently well met.
- The volatility of cryptocurrencies vis-a-vis fiat currencies makes it difficult
+ The volatility of cryptocurrencies vis--vis fiat currencies makes it difficult
  to denominate goods or services in these in cryptocoins.
  However, in that sense it is again similar to gold, which also has a highly
  volatile price as denoted in fiat currency.
+\end_layout
+
+\begin_layout Section
+Legal Issues
+\end_layout
+
+\begin_layout Standard
+As mentioned above, there are two legal issues, recognition as being legal,
+ alongside a legal classification of Bitcoin, as well as the issue of legal
+ tender.
+ We will discuss these here.
+\end_layout
+
+\begin_layout Subsection
+Legal Recognition and Classification
+\end_layout
+
+\begin_layout Standard
+In the initial days of Bitcoin, especially when it was mainly used for purchasin
+g illicit goods, some held the belief that most governments would perceive
+ Bitcoin as a threat to their monopoly on currency and for this reason would
+ ban it.
+ This already being contrasted by governments of the EMU member states,
+ who have volutarily surrendered their monetary monopoly for a 'foreign'
+ currency.
+ It turned out most government where more interested in taxing it.
+ For this reason Bitcoin has in many places been classified as a financial
+ instument.
+ If Bitcoins are derived from mining, they are to be taxed using income
+ tax.
+ If Bitcoins are purchased these will be taxed as financial holdings.
+\end_layout
+
+\begin_layout Subsection
+Legal Tender
+\end_layout
+
+\begin_layout Standard
+What is legal tender? why do we need it, why dont we need it in bitcoin,
+ refer to the chapter of why bictoin
+\end_layout
+
+\begin_layout Part
+The Economics
 \end_layout
 
 \begin_layout Chapter
@@ -588,6 +718,10 @@ key "fisher1933debt"
  Additionally, these savings are not invested properly, since deflation
  simultaneously provides a disincentive for borrowers, by making future
  paybacks more expensive, raising the effective interest rate.
+\end_layout
+
+\begin_layout Part
+The Social Value
 \end_layout
 
 \begin_layout Chapter
@@ -695,6 +829,31 @@ It is also through this multiplicity that wasteful mining will be limited.
  will be done here, reducing the waste.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bookmarksetup{startatroot}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtocontents{toc}{
+\backslash
+bigskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Conclusion
 \end_layout
@@ -740,7 +899,7 @@ status open
 
 
 \backslash
-printbibliography
+printbibliography[heading=bibintoc]
 \end_layout
 
 \end_inset
