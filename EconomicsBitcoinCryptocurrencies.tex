@@ -75,359 +75,39 @@
 
 \lyxaddress{Switzerland}
 
-
-\chapter*{About the author}
-
-Bastiaan Quast is a PhD Candidate in Development Economics at The
-Graduate Institute of International and Development Studies in Geneva.
-
-He holds a Master in Quantitative Economics and Finance from the University
-of St. Gallen in Switzerland as well as a Bachelor in Theoretical
-Philosophy and a Bachelor in Economics from the University of Groningen
-in The Netherlands.
-
-\tableofcontents{}
+\include{AuthorEBC}\tableofcontents{}
 
 \mainmatter
 
-
-\chapter{Introduction}
-
-In 2009 the online currency\textbf{ \nomenclature{Bitcoin}{ }} was
-launched by an anonymous developer known by the pseudonym \nomenclature{Satoshi Nakamoto}{ }.
-Initially the project remained fairly low key, have only a small group
-of geeks participate in it. However, in 2013 Bitcoin quickly became
-a mainstream phenomenon as it was reported on in the mainstream media
-such as The Economics, Time Magaine, The New York Times, and many
-more. This increased attention created a surge in the uptake of Bitcoin
-both as an investment as well as transaction mechanism. However, Bitcoin
-also has a dark side, being initially used mostly to purchase illicit
-goods on online marketplaces such The Silk Road, websites that are
-generally only available through the dark web. However, the rise in
-popular attention has also brought the attention of regulators, which
-has caused many of the illegal marketplaces to be taken offline, as
-well as introduced a range of fiscal regulation, dealing with bitcoin.
-This book provides a laymens introduction to the basic principles
-of Bitcoin and other online currencies, as well as discuss how this
-new phenomenon can be viewed from an economic perspective, and what
-that would mean for the development of such systems.
-
-The Bitcoin system was based on a 2008 white paper by the same author
-\citep{nakamoto2008bitcoin}. 
-
-Besides the fact that Bitcoin exist only digitally, its defining characteristics
-are decentralisation and openness. and every aspect of it is public
-and \nomenclature{open source}{ }. 
-
-This quickly led to the launching of several alternative online currencies,
-based on the Bitcoin protocol. A currency based on cryptography, such
-as Bitcoin, is know as a \nomenclature{cryptocurrency}{ }.
-
-Cryptocurrencies come with an extensive new terminology, for reference,
-a glossary is provided in the back of the book.
+\include{IntroductionEBC}
 
 
-\part{Basic principles}
+\part{About Bitcoin}
 
+\include{WhatIsEBC}
 
-\chapter{What is Bitcoin?}
+\include{WhyUseEBC}
 
-A short answer is that it is an online anonymous currency which is
-not controlled by any single government or entity. However, from a
-technical perspective there are many innovative features to Bitcoin,
-and I will begin by highlighting the key ones. 
-
-\nomenclature{Bitcoin}{ }is a confusing term. It is both a monetary
-unit of denomination, such as Swiss franc, euro, or pound sterling,
-as well as, a monetary system as a whole, including the protocol,
-the network, and all participants. To distinguish between the two,
-the system \nomenclature{Bitcoin}{  } is written with a capital letter
-B, and the monetary unit of account is \nomenclature{bitcoin}{ },
-is written with a small letter b. Furthermore, there is the original
-Bitcoin software, which is called\textbf{ \nomenclature{Bitcoin-Qt}{ }},
-using this software package, or others, computer can connect to the
-Bitcoin network.
-
-\nomenclature{Bitcoin}{  }is built from the ground up to be decentralised
-and anonymous. All software is open source and publicly available.
-Anybody can perform any function within the network (user or node),
-there is no central or essential node, there is redundancy in every
-aspect.
-
-The essential principle is that every user has a piece of software
-on their computer, a\textbf{ \nomenclature{wallet}{ }}, which contains
-a set of public addresses (like bank account numbers), each address
-is mathematically linked with a \textbf{\nomenclature{private key}{ }}
-(like a password). Using this secret key, users can create a digital
-\nomenclature{signature}{ }, to prove that they are the owner of
-an address. This signature, together with a transaction is sent to
-a bitcoin \textbf{\nomenclature{miner}{ }}. The miner is a node in
-the network, which verifies that the address and signature are linked,
-after which the transaction is recorded in the public ledger, or \textbf{\nomenclature{blockchain}{ }}
-and disseminated throughout the network.
-
-There are a number of other features which are important to highlight.
-Bitcoins are created through a process called mining, this is a computationally
-intensive process used as the mechanism for transaction verification.
-The Bitcoins created as a reward for mining becomes incrementally
-smaller, until finally becoming zero. This is predicted to be around
-the year 2140, and at that point around 21 million bitcoins will have
-been created. There will never be more bitcoins in the system. Furthermore,
-bitcoins will be lost if private keys are lost, these will never be
-recovered. The system is thus strictly deflationary. To keep transactions
-of every size possible, bitcoins are highly granular, every bitcoin
-can be divided into a hundred million \textbf{\nomenclature{satoshi}{ }}
-(named after the pseudonym of the creator).
-
-
-\chapter{Why use Bitcoin?}
-
-There are some key benefits to cryptocurrencies such as Bitcoin, a
-few of which I will mention here.
-
-Firstly, the system is self-regulating, meaning that no government
-or institution controls it. For the user that means that their holdings
-cannot be used as a policy instrument. Conventional fiat currencies
-are owned by a government, which means that they can be used to e.g.
-stimulate economic growth by printing extra money, which lessens the
-value of individuals holdings.
-
-Secondly, users control their own holdings on their own computer,
-which eliminates the need for a bank. This brings the advantage that
-users are not dependent on open hours, waiting lines, or e-banking
-websites, it also means no fees. Additionally a user's holdings cannot
-be wiped out by his or her bank bankrupting after speculative investing
-or something of that sort.
-
-Thirdly, transactions are as easy, instant, and costless as sending
-an email. Bitcoin exists online digitally, which means that there
-is no physical counterpart that needs to be moved, such as with gold,
-or paper money. Additionally, it is equally valid across countries,
-which means that there is no need to exchange it. This makes Bitcoin
-an ideal mechanism for remittances, which nowadays can cost as much
-as 10 percent. Additionally no government can apply capital restrictions
-on these remittances.
-
-Lastly, the instant nature of transactions means it is well suited
-for online retailing. Credit card transactions seem instant, but in
-fact are not. A significant percentage is in fact reversed after initial
-clearance. This is very costly for retailers, this often occurs after
-packaging of shipping has started.
-
-
-\chapter{Is Bitcoin Legal?}
-
-The short answer is yet, of course this does not mean that anything
-that you use Bitcoin for is legal. That is to say, it is still illegal
-to purchase elicit goods, or hide holdings from the tax bureau.
-
-
-\chapter{Is Bitcoin money?}
-
-What is money? Some answers are obvious, well established currencies
-such as the US Dollar are. But the Euro is not a national currency,
-it is not owned by a state. Zimbabwe owns their own currency, but
-this has become essentially useless. What if money is moved from one,
-bank account to another bank account at the same bank in the same
-country, through ebanking. No physical change will occur (save for
-a few bits on a computer driver somewhere in some remote datacentre).
-In some places sea shells or other rare commodities such a gold or
-ivory are accepted. Just as the number of possible moneys is alsmost
-infiniate, so is the number of definitions, but a comptemporary (pre-Bitcoin)
-consensus would dictate somethink like: 
-\begin{quotation}
-an object or entry in a record that is generally accepted as payment
-for goods and services and debts in a certain socio-economic context
-or country \textcolor{red}{CITE!!}.
-\end{quotation}
-We can observe a number of things from this definition. Firstly, money
-does not have to be an object (such as a coin), but can also be an
-entry in a record (such as a bank account balance). Secondly, it assumed
-to be generally accepted (though not universally). Thirdly, a money
-is not limited to only being accepted in a country, but can also be
-accepted in a certain context. Lastly, the existance of one money
-does not rule out the existance of others.
-
-Bitcoin, the blockchain public ledger is a record. Generally accepted,
-but generally accepted within a certain context. Also, coexcistance
-of moneys.
-
-The question of whether Bitcoin is money is a complicated question,
-there are some standard which are used in academia to evaluate whether
-something is money or not. Besides this there are the issues of legal
-tender, and legal recognition. We will start by discussion the academic
-criteria for a money, after which we will look at legal tender and
-legal recognition. The standard criteria used in academia for analysing
-money are:
-\begin{enumerate}
-\item medium of exchange
-\item unit of account or numéraire
-\item store of value
-\end{enumerate}
-These criteria can broadly be interpreted as follow. A medium of exchange
-
-The criteria (1.) and (3.) are clearly fulfilled. Since cryptocoins
-are virtual goods, and multiple copies can be made, there is no degeneration
-over time. Furthermore, cryptocoins are a good medium of exchange,
-transactions are quick and relatively cost less. The unit of account
-is not a criterium that is currently well met. The volatility of cryptocurrencies
-vis--vis fiat currencies makes it difficult to denominate goods or
-services in these in cryptocoins. However, in that sense it is again
-similar to gold, which also has a highly volatile price as denoted
-in fiat currency.
-
-
-\section{Legal Issues}
-
-As mentioned above, there are two legal issues, recognition as being
-legal, alongside a legal classification of Bitcoin, as well as the
-issue of legal tender. We will discuss these here.
-
-
-\subsection{Legal Recognition and Classification}
-
-In the initial days of Bitcoin, especially when it was mainly used
-for purchasing illicit goods, some held the belief that most governments
-would perceive Bitcoin as a threat to their monopoly on currency and
-for this reason would ban it. This already being contrasted by governments
-of the EMU member states, who have volutarily surrendered their monetary
-monopoly for a 'foreign' currency. It turned out most government where
-more interested in taxing it. For this reason Bitcoin has in many
-places been classified as a financial instument. If Bitcoins are derived
-from mining, they are to be taxed using income tax. If Bitcoins are
-purchased these will be taxed as financial holdings.
-
-
-\subsection{Legal Tender}
-
-What is legal tender? why do we need it, why dont we need it in bitcoin,
-refer to the chapter of why bictoin
+\include{LegalEBC}\include{MoneyEBC}
 
 
 \part{The Economics}
 
+\include{InflationEBC}
 
-\chapter{Cryptocurrencies and Inflation}
-
-As the value of bitcoin goes up, more people will choose to engage
-in the lucrative mining. As extra computational power comes in, the
-difficulty of mining automatically goes up, which means more computing
-power is used for the same transactions. This is necessary to safeguard
-the integrity of the network.
-
-Having established the key features of the Bitcoin system, we will
-now focus on two often heard economic concerns about the Bitcoin system.
-Namely the issue of deflation and the issue of socially wasteful mining.
-
-As mentioned above, there will only ever be around 21 million bitcoins,
-and some will be lost, this makes the system deflationary, which is
-troubling to economists. Deflation provides a disincentive to spend,
-causing economic slowdown \citep[see e.g.][]{fisher1933debt}. Since
-deflation causes the price of products to fall, it incentivises people
-to save ans spend later. Additionally, these savings are not invested
-properly, since deflation simultaneously provides a disincentive for
-borrowers, by making future paybacks more expensive, raising the effective
-interest rate.
+\include{BimetallismEBC}
 
 
 \part{The Social Value}
 
+\include{WastefullMining}
 
-\chapter{Is mining socially wasteful?}
-
-The second issue is the value of the mining process. As described
-above, the process of mining is the solving of computational problems,
-in order to secure the integrity of the Bitcoin network. However,
-the actual social value of the arithmetic solution itself is zero,
-since it has no application other than Bitcoin integrity. As the number
-of bitcoins is limited, and more money is invested in it, the value
-can only increase. The increase in value will make it more lucrative
-to engage in bitcoin mining, which means more computational power
-will be devoted to this. To keep the system secure in face of this
-extra computing power, the difficulty goes up. However, if the extra
-power had not come in, this would not have been necessary. The extra
-computers which engage in bitcoin mining thus do not add any social
-value.
-
-It has to be noted, that the bar for social value is being set very
-high. Extraction, storage, and transfer of value is a resource intensive
-enterprise. Consider the gold mining industry (note, this is the origin
-of the term bitcoin mining). The extraction of gold is a very resource
-intensive, dangerous, and pollutive process. After the extraction,
-purification, and moulding, most gold is stored highly guarded in
-vaults. Finally then, gold can be utilised to conduct transactions,
-which involves shipping bars of gold across the ocean under maximum
-security, only to be stored in another highly protected vault, upon
-arrival \citep[see e.g.][]{friedman2008monetary}.
-
-The solution for both these lies in the multiplicity of cryptocurrencies.
-As mentioned above, every aspect of Bitcoin is open and publicly accessible,
-it is therefore relatively easy to start an alternative Bitcoin, and
-this has been done. There are in fact many currencies based on the
-Bitcoin protocol, collectively referred to as cryptocurrencies. It
-is relatively easy and cheap to construct a cryptocurrency, whereby
-the number of available coins can be set by the creator. The most
-popular alternative to Bitcoin is called Litecoin, its main difference
-is that it processes transactions faster, and the total number of
-coins is four times as high. Aside Litecoin, there are many other
-alternative cryptocurrencies, most of which never gain momentum and
-the value of which remains only trivially above zero. However, a significant
-number does succeed. The momentum mechanism could perhaps best be
-compared with a positive variation on currency attacks \citep{obstfeld1986rational,obstfeld1995logic,obstfeld1996models}.
-Unlike the creation of new coins in an existing cryptocurrency, the
-creation of new cryptocurrencies is relatively cheap.
-
-The key point to observe here, is that cryptocurrencies do have value,
-but only as a transaction mechanism. Hereby the biggest bottleneck
-is probably the number of cryptocurrencies that merchants are willing
-the accept simultaneously. However, due to their similarity, it is
-very straightforward for e.g. merchants to accept multiple currencies.
-When we combine the value with the relatively cost-less creation of
-cryptocurrencies, we see an equilibrium in the number of cryptocurrencies
-that is far higher than in the current situation.
-
-Inflation is impossible within the Bitcoin network, as well as within
-most other cryptocurrencies. However, inflation in the cryptocurrency
-economy is still possible, through an expansion the number of cryptocurrencies.
-
-It is also through this multiplicity that wasteful mining will be
-limited. As noted above, cryptocurrencies have value, because they
-are effective mechanisms for transactions. However, this is the only
-source of value. If a cryptocurrency becomes too expensive (which
-causes excessive mining), a new, lower valued, cryptocurrency will
-arise. Since the value of this currency is lower, but it is equally
-effective in transactions, value will flow out of the overvalued cryptocurrency
-and into the undervalued one. This lowers the value of the overvalued
-cryptocurrency, and less mining will be done here, reducing the waste.
-
-
-\chapter{Proof of Stake Cryptocurrencies}
-
-To counter the socially useless computing, the proof of stake concept
-has been invented.
-
-
-\section{Interest: Unfair free money?}
-
-The principles, inflation, and the consequences of less wasteful mining.
+\include{ProofStakeEBC}
 
 \bookmarksetup{startatroot}
 \addtocontents{toc}{\bigskip}
 
-
-\chapter{Conclusion}
-
-In conclusion, cryptocurrencies such as Bitcoin have an enormous potential
-as a transaction mechanism, giving users control of their own holdings
-and making transactions instant and costs negligible. Two commonly
-heard issues with cryptocurrencies are deflation and wasteful mining.
-It can be shown that these issues are not pervasive, when the cryptocurrency
-economy as a whole is considered. Cryptocurrencies derive their value
-only from being an efficient transaction mechanism, if they appear
-to become overvalued (causing excessive mining), other cryptocurrencies
-will arise. This will increase the total number of cryptocoins (between
-all cryptocurrencies), which will drive down the price, and limit
-excessive mining.
+\include{ConclusionEBC}
 
 \begin{center}
 \printbibliography[heading=bibintoc]
