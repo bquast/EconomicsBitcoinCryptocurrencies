@@ -104,31 +104,71 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-Is Bitcoin Legal?
+Benefits and Drawbacks
 \end_layout
 
 \begin_layout Standard
-The short answer is yet, of course this does not mean that anything that
- you use Bitcoin for is legal.
- That is to say, it is still illegal to purchase elicit goods, or hide holdings
- from the tax bureau.
+There are many benefits to using cryptocurrencies such as Bitcoin, some
+ apply now other may come to be if and when cryptocurrencies become more
+ adopted in more conventional places.
+ Some key benefits include:
+\end_layout
+
+\begin_layout Itemize
+a self-regulating system, no unexpected interventions
+\end_layout
+
+\begin_layout Itemize
+no need for middlemen, such as banks
+\end_layout
+
+\begin_layout Itemize
+virtually instant transactions
+\end_layout
+
+\begin_layout Section*
+A Self-Regulating System
 \end_layout
 
 \begin_layout Standard
-The legal standing of Bitcoin is different in many countries.
+The Bitcoin system is self-regulating, meaning that no government or institution
+ controls it.
+ For the user that means that their holdings cannot be used as a policy
+ instrument.
+ Conventional fiat currencies are owned by a government, which means that
+ they can be used to e.g.
+ stimulate economic growth by printing extra money, which lessens the value
+ of individuals holdings.
+\end_layout
+
+\begin_layout Section*
+No middlemen
+\end_layout
+
+\begin_layout Standard
+Secondly, users control their own holdings on their own computer, which
+ eliminates the need for a bank.
+ This brings the advantage that users are not dependent on open hours, waiting
+ lines, or e-banking websites, it also means no fees.
+ Additionally a user's holdings cannot be wiped out by his or her bank bankrupti
+ng after speculative investing or something of that sort.
+\end_layout
+
+\begin_layout Section*
+Virtually Instant Transactions
+\end_layout
+
+\begin_layout Standard
+Thirdly, transactions are as easy, instant, and costless as sending an email.
+ Bitcoin exists online digitally, which means that there is no physical
+ counterpart that needs to be moved, such as with gold, or paper money.
+ Additionally, it is equally valid across countries, which means that there
+ is no need to exchange it.
  
 \end_layout
 
 \begin_layout Standard
-In many places Bitcoin has been classified as a financial asset for purposes
- of taxation.
- This means that it is not recognised as a currency again for purposes of
- taxation.
- It several court rulings however, it has been found that Bitcoin does act
- as a currency.
- In both cases the legality of Bitcoin is underlines, however, the distinction
- can be relevant in some cases.
- For instance, 
+
 \end_layout
 
 \end_body

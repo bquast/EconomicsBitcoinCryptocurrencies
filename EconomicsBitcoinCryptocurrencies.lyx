@@ -210,6 +210,26 @@ filename "WhatIsEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "HowDoesBitcoinWorkEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "BenefitsDrawbackEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "WhyUseEBC.lyx"
 
 \end_inset

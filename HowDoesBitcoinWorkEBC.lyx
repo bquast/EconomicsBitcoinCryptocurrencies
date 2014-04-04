@@ -104,79 +104,102 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-What is Bitcoin?
+How Does Bitcoin Work?
 \end_layout
 
 \begin_layout Standard
-A short answer is that it is an online anonymous currency which is not controlle
-d by any single government or entity.
- However, from a technical perspective there are many innovative features
- to Bitcoin, and I will begin by highlighting the key ones.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description " "
-
-\end_inset
-
-is a confusing term.
- It is both a monetary unit of denomination, such as Swiss franc, euro,
- or pound sterling, as well as, a monetary system as a whole, including
- the protocol, the network, and all participants.
- To distinguish between the two, the system 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- is written with a capital letter B, and the monetary unit of account is
- 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "bitcoin"
-description " "
-
-\end_inset
-
-, is written with a small letter b.
- Furthermore, there is the original Bitcoin software, which is called
+The essential principle is that every user has a piece of software on their
+ computer, a
 \series bold
  
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
-symbol "Bitcoin-Qt"
+symbol "wallet"
 description " "
 
 \end_inset
 
 
 \series default
-, using this software package, or others, computer can connect to the Bitcoin
- network.
-\end_layout
+, which contains a set of public addresses (like bank account numbers),
+ each address is mathematically linked with a 
+\series bold
 
-\begin_layout Standard
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
+symbol "private key"
+description " "
 
 \end_inset
 
-is built from the ground up to be decentralised and anonymous.
- All software is open source and publicly available.
- Anybody can perform any function within the network (user or node), there
- is no central or essential node, there is redundancy in every aspect.
+
+\series default
+ (like a password).
+ Using this secret key, users can create a digital 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "signature"
+description " "
+
+\end_inset
+
+, to prove that they are the owner of an address.
+ This signature, together with a transaction is sent to a bitcoin 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "miner"
+description " "
+
+\end_inset
+
+
+\series default
+.
+ The miner is a node in the network, which verifies that the address and
+ signature are linked, after which the transaction is recorded in the public
+ ledger, or 
+\series bold
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "blockchain"
+description " "
+
+\end_inset
+
+
+\series default
+ and disseminated throughout the network.
 \end_layout
 
 \begin_layout Standard
+There are a number of other features which are important to highlight.
+ Bitcoins are created through a process called mining, this is a computationally
+ intensive process used as the mechanism for transaction verification.
+ The Bitcoins created as a reward for mining becomes incrementally smaller,
+ until finally becoming zero.
+ This is predicted to be around the year 2140, and at that point around
+ 21 million bitcoins will have been created.
+ There will never be more bitcoins in the system.
+ Furthermore, bitcoins will be lost if private keys are lost, these will
+ never be recovered.
+ The system is thus strictly deflationary.
+ To keep transactions of every size possible, bitcoins are highly granular,
+ every bitcoin can be divided into a hundred million 
+\series bold
 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "satoshi"
+description " "
+
+\end_inset
+
+
+\series default
+ (named after the pseudonym of the creator).
 \end_layout
 
 \end_body
