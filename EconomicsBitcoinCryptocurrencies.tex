@@ -29,13 +29,15 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{bookmark}
+
 \usepackage[authordate,natbib,backend=biber]{biblatex-chicago}
 
 \usepackage[toc]{glossaries}
 \glossarystyle{altlistgroup}
 
 % add the bibliography file (linux location)
-\addbibresource{~/EconomicsBitcoinCryptocurrencies/bibliography.bib} 
+\addbibresource{~/LaTeX/bibliography.bib} 
 
 \input{glossaries.tex}
 
@@ -86,9 +88,7 @@ in The Netherlands.
 
 \tableofcontents{}
 
-\begin{center}
 \mainmatter
-\par\end{center}
 
 
 \chapter{Introduction}
@@ -271,7 +271,7 @@ are virtual goods, and multiple copies can be made, there is no degeneration
 over time. Furthermore, cryptocoins are a good medium of exchange,
 transactions are quick and relatively cost less. The unit of account
 is not a criterium that is currently well met. The volatility of cryptocurrencies
-vis-à-vis fiat currencies makes it difficult to denominate goods or
+vis--vis fiat currencies makes it difficult to denominate goods or
 services in these in cryptocoins. However, in that sense it is again
 similar to gold, which also has a highly volatile price as denoted
 in fiat currency.
@@ -305,32 +305,6 @@ refer to the chapter of why bictoin
 
 
 \part{The Economics}
-
-
-\chapter{Bimetallism in Bitcoin and Litecoin?}
-
-The situation of multiple currencies, especially in light of the gold
-analogy, brings to mind the idea of bimetallism, the monetary system
-where the currency is based not just on gold, but also on silver.
-The two being interchangeable at a fixed rate.
-
-Also in the light of bimetallism, we can consider Gresham's law. Bad
-money drives out good. In the case of bimetallism, the most circulated
-specie will be the one which is currently considered to be undervalued
-by the official exchange rate. Meaning that if silver becomes more
-abundant, its relative value will decrease, and people will first
-spend their silver coins, before they spend their gold ones. Since
-exchange rates between cryptocurrencies are freely floating, there
-is no 'bad money', since each currency is valued at market rate. Interestingly
-enough, the rate between Bitcoin and Litecoin seems to trade in a
-very narrow band, especially considering the volatility vis-a-vis
-fiat currencies. 
-
-However, there is a crowding out of sort. This is perhaps best compared
-to international currency competition. Where there is a competition
-for the privilege of being a reserve currency. A foreign investor
-can choose exchange his national fiat currency for e.g. the US Dollar
-or the Euro. In these markets, the good currencies drive out the bad.
 
 
 \chapter{Cryptocurrencies and Inflation}
@@ -427,6 +401,20 @@ and into the undervalued one. This lowers the value of the overvalued
 cryptocurrency, and less mining will be done here, reducing the waste.
 
 
+\chapter{Proof of Stake Cryptocurrencies}
+
+To counter the socially useless computing, the proof of stake concept
+has been invented.
+
+
+\section{Interest: Unfair free money?}
+
+The principles, inflation, and the consequences of less wasteful mining.
+
+\bookmarksetup{startatroot}
+\addtocontents{toc}{\bigskip}
+
+
 \chapter{Conclusion}
 
 In conclusion, cryptocurrencies such as Bitcoin have an enormous potential
@@ -442,7 +430,7 @@ all cryptocurrencies), which will drive down the price, and limit
 excessive mining.
 
 \begin{center}
-\printbibliography
+\printbibliography[heading=bibintoc]
 \par\end{center}
 
 \begin{center}

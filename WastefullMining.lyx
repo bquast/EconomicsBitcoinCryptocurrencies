@@ -1,0 +1,212 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{bookmark}
+
+\usepackage[authordate,natbib,backend=biber]{biblatex-chicago}
+
+\usepackage[toc]{glossaries}
+\glossarystyle{altlistgroup}
+
+% add the bibliography file (linux location)
+\addbibresource{~/LaTeX/bibliography.bib} 
+
+\input{glossaries.tex}
+
+\makeglossaries
+
+\let\nomenclature\gls
+\end_preamble
+\options a5paper
+\use_default_options true
+\begin_modules
+biblatex
+\end_modules
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Economics of Bitcoin and Cryptocurrenies"
+\pdf_author "Bastiaan Quast"
+\pdf_keywords "bitcoin, cryptocurrencies, economics"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Is mining socially wasteful?
+\end_layout
+
+\begin_layout Standard
+The second issue is the value of the mining process.
+ As described above, the process of mining is the solving of computational
+ problems, in order to secure the integrity of the Bitcoin network.
+ However, the actual social value of the arithmetic solution itself is zero,
+ since it has no application other than Bitcoin integrity.
+ As the number of bitcoins is limited, and more money is invested in it,
+ the value can only increase.
+ The increase in value will make it more lucrative to engage in bitcoin
+ mining, which means more computational power will be devoted to this.
+ To keep the system secure in face of this extra computing power, the difficulty
+ goes up.
+ However, if the extra power had not come in, this would not have been necessary.
+ The extra computers which engage in bitcoin mining thus do not add any
+ social value.
+\end_layout
+
+\begin_layout Standard
+It has to be noted, that the bar for social value is being set very high.
+ Extraction, storage, and transfer of value is a resource intensive enterprise.
+ Consider the gold mining industry (note, this is the origin of the term
+ bitcoin mining).
+ The extraction of gold is a very resource intensive, dangerous, and pollutive
+ process.
+ After the extraction, purification, and moulding, most gold is stored highly
+ guarded in vaults.
+ Finally then, gold can be utilised to conduct transactions, which involves
+ shipping bars of gold across the ocean under maximum security, only to
+ be stored in another highly protected vault, upon arrival 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "see e.g."
+key "friedman2008monetary"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The solution for both these lies in the multiplicity of cryptocurrencies.
+ As mentioned above, every aspect of Bitcoin is open and publicly accessible,
+ it is therefore relatively easy to start an alternative Bitcoin, and this
+ has been done.
+ There are in fact many currencies based on the Bitcoin protocol, collectively
+ referred to as cryptocurrencies.
+ It is relatively easy and cheap to construct a cryptocurrency, whereby
+ the number of available coins can be set by the creator.
+ The most popular alternative to Bitcoin is called Litecoin, its main difference
+ is that it processes transactions faster, and the total number of coins
+ is four times as high.
+ Aside Litecoin, there are many other alternative cryptocurrencies, most
+ of which never gain momentum and the value of which remains only trivially
+ above zero.
+ However, a significant number does succeed.
+ The momentum mechanism could perhaps best be compared with a positive variation
+ on currency attacks 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "obstfeld1986rational,obstfeld1995logic,obstfeld1996models"
+
+\end_inset
+
+.
+ Unlike the creation of new coins in an existing cryptocurrency, the creation
+ of new cryptocurrencies is relatively cheap.
+\end_layout
+
+\begin_layout Standard
+The key point to observe here, is that cryptocurrencies do have value, but
+ only as a transaction mechanism.
+ Hereby the biggest bottleneck is probably the number of cryptocurrencies
+ that merchants are willing the accept simultaneously.
+ However, due to their similarity, it is very straightforward for e.g.
+ merchants to accept multiple currencies.
+ When we combine the value with the relatively cost-less creation of cryptocurre
+ncies, we see an equilibrium in the number of cryptocurrencies that is far
+ higher than in the current situation.
+\end_layout
+
+\begin_layout Standard
+Inflation is impossible within the Bitcoin network, as well as within most
+ other cryptocurrencies.
+ However, inflation in the cryptocurrency economy is still possible, through
+ an expansion the number of cryptocurrencies.
+\end_layout
+
+\begin_layout Standard
+It is also through this multiplicity that wasteful mining will be limited.
+ As noted above, cryptocurrencies have value, because they are effective
+ mechanisms for transactions.
+ However, this is the only source of value.
+ If a cryptocurrency becomes too expensive (which causes excessive mining),
+ a new, lower valued, cryptocurrency will arise.
+ Since the value of this currency is lower, but it is equally effective
+ in transactions, value will flow out of the overvalued cryptocurrency and
+ into the undervalued one.
+ This lowers the value of the overvalued cryptocurrency, and less mining
+ will be done here, reducing the waste.
+\end_layout
+
+\end_body
+\end_document
