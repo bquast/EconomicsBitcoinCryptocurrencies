@@ -194,7 +194,7 @@ filename "IntroductionEBC.lyx"
 \end_layout
 
 \begin_layout Part
-About Bitcoin
+The Basics
 \end_layout
 
 \begin_layout Standard
@@ -240,14 +240,17 @@ filename "WhyUseEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "LegalEBC.lyx"
+filename "MoneyEBC.lyx"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "MoneyEBC.lyx"
+filename "LegalEBC.lyx"
 
 \end_inset
 
@@ -256,6 +259,16 @@ filename "MoneyEBC.lyx"
 
 \begin_layout Part
 The Economics
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "DenationalizationEBC.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

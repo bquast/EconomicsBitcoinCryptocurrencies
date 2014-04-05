@@ -104,26 +104,16 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-What is Bitcoin?
+Cryptocurrency competition: Hayek's Paradise
 \end_layout
 
 \begin_layout Standard
-A short answer is that it is an online anonymous currency which is not controlle
-d by any single government or entity.
- However, from a technical perspective there are many innovative features
- to 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
-, and I will begin by highlighting the key ones.
- 
-\end_layout
-
-\begin_layout Standard
+Bitcoin first become popular in several underground movements.
+ As such it has been hauled as a major innovation in a self-identified movement
+ know as crypto-anarchism.
+ The main idea behind crypto-anarchism is that cryptography empowers individuals
+ to avoid government control.
+ It is not suprising that many of the economic principles on which 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "Bitcoin"
@@ -131,71 +121,56 @@ description " "
 
 \end_inset
 
-is a confusing term.
- It is both a monetary unit of denomination, such as Swiss franc, euro,
- or pound sterling, as well as, a monetary system as a whole, including
- the protocol, the network, and all participants.
- To distinguish between the two, the system 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- is written with a capital letter B, and the monetary unit of account is
+ is based, are commonly identified with government weary schools of thought
+ is economics academia, such as the Austrian School and Monetary Economics.
  
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "bitcoin"
-description " "
-
-\end_inset
-
-, is written with a small letter b.
- Furthermore, there is the original 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- software, which is called
-\series bold
- 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin-Qt"
-description " "
-
-\end_inset
-
-
-\series default
-, using this software package, or others, computer can connect to the 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- network.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
+In a 
+\color red
+1999 interview
+\color inherit
+, Milton Friedman, the key proponent of Monetary Economics gave an interview
+ to the tax-payers association of America in which he says:
+\end_layout
 
-\end_inset
+\begin_layout Quotation
 
-is built from the ground up to be decentralized and anonymous.
- All software is open source and publicly available.
- Anybody can perform any function within the network (user or node), there
- is no central or essential node, there is redundancy in every aspect.
+\color red
+The one thing that is missing -but will be invented very soon- is a reliable
+ anonymous online e-cash
+\end_layout
+
+\begin_layout Standard
+If we consider the cryptocurrency space as a whole we seem to approach the
+ 'Decentralization of Money' as descibed by 
+\color red
+Friedrich Hayek (1976)
+\color inherit
+.
+ Hayek describes a situation in which currencies are no longer owned by
+ governments, but in stead are owned by private companies.
+ In this transnational currency space, the most currency or currencies most
+ favorable to consumers would be adopted strongest and would become dominant.
+ The situation of there being several competing cryptocurrencies in comes
+ very close to the system as invisioned by Hayek.
+ It also addresses some of the key critisisms of this vision, as raised
+ for example by Milton Friedman...
+\end_layout
+
+\begin_layout Standard
+
+\color red
+PERHAPS A DISCUSSION OF GRESHAMS LAW IN THIS CRYPTOCURRENCY COMPETITION
+\end_layout
+
+\begin_layout Standard
+Although Hayek firmly believed in the self-regulating currency market, the
+ market itself was made up of self-serving firms which owned and controlled
+ the currencies.
+ Cryptocurrencies go a step further, in making the currencies self-regulating
+ and making only the individuals currency holders self-serving actors.
 \end_layout
 
 \end_body

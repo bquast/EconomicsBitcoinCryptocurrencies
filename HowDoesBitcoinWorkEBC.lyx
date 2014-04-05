@@ -144,7 +144,15 @@ description " "
 \end_inset
 
 , to prove that they are the owner of an address.
- This signature, together with a transaction is sent to a bitcoin 
+ This 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "signature"
+description "  "
+
+\end_inset
+
+, together with a transaction is sent to a bitcoin 
 \series bold
 
 \begin_inset CommandInset nomenclature
@@ -187,7 +195,15 @@ There are a number of other features which are important to highlight.
  never be recovered.
  The system is thus strictly deflationary.
  To keep transactions of every size possible, bitcoins are highly granular,
- every bitcoin can be divided into a hundred million 
+ every 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "bitcoin"
+description "  "
+
+\end_inset
+
+ can be divided into a hundred million 
 \series bold
 
 \begin_inset CommandInset nomenclature
