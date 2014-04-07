@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language british
+\language american
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -109,8 +109,8 @@ Perfect Foresight
 
 \begin_layout Standard
 In many economic models, agents expectations are modeled as being either,
- adaptive, perfectly rational, or in some extreme cases, having perfect
- foresight.
+ adaptive with respect to the past, perfectly rational, or in some extreme
+ cases, having perfect foresight.
  The situation where agents exhibit perfect foresight is not intended as
  realistic economic modelling, as much as it is used a benchmark for economicall
 y optimal outcomes.
@@ -118,13 +118,13 @@ y optimal outcomes.
 
 \begin_layout Standard
 Bitcoin and most other cryptocurrencies have the interesting feature that
- the path of monetary expansion is almost perfectly predicted.
- The rate at wish new bitcoins are mined is to a very large degree predetermined.
+ the path of monetary expansion is almost perfectly predictable.
+ The rate at which new bitcoins are mined is to a very large degree predetermine
+d.
  Although the price of Bitcoin, and the associated computing power in the
- network cannot be prediced.
- The process automatically adjusts the difficulty of verification process
- every few minutes, leading to an extremely stable and predictable monetary
- growth path.
+ network cannot be prediced, the process automatically adjusts the difficulty
+ of verification process every few minutes, leading to an extremely stable
+ and predictable monetary growth path.
 \end_layout
 
 \end_body

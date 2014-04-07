@@ -108,8 +108,16 @@ Why use Bitcoin?
 \end_layout
 
 \begin_layout Standard
-Having examined the technological side of Bitcoin, we can now consider some
- situations in which these innovations best come to fruitition.
+Having examined the technological side of 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Bitcoin"
+description "  "
+
+\end_inset
+
+, we can now consider some situations in which these innovations best come
+ to fruitition.
  In examining these situations we consider these merely from an effectiveness
  perspective, without regard for the morality of such possible situations,
  which is beyond the scope of this book.
@@ -140,8 +148,16 @@ anonymous online transactions
 \end_layout
 
 \begin_layout Standard
-This makes Bitcoin an ideal mechanism for remittances, which nowadays can
- cost as much as 10 percent.
+This makes 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Bitcoin"
+description "  "
+
+\end_inset
+
+ an ideal mechanism for remittances, which nowadays can cost as much as
+ 10 percent.
  Additionally no government can apply capital restrictions on these remittances.
  
 \end_layout

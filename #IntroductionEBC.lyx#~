@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language american
+\language british
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -104,70 +104,102 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-Why use Bitcoin?
+Introduction
 \end_layout
 
 \begin_layout Standard
-Having examined the technological side of 
+In 2009 the online currency
+\series bold
+ 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "Bitcoin"
-description "  "
+description " "
 
 \end_inset
 
-, we can now consider some situations in which these innovations best come
- to fruitition.
- In examining these situations we consider these merely from an effectiveness
- perspective, without regard for the morality of such possible situations,
- which is beyond the scope of this book.
-\end_layout
 
-\begin_layout Itemize
-international remittances
-\end_layout
+\series default
+ was launched by an anonymous developer known by the pseudonym 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Satoshi Nakamoto"
+description " "
 
-\begin_layout Itemize
-online transactions
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-mobile payments
-\end_layout
+.
+ Initially the project remained fairly low key, having only a small number
+ of geeks actively participating.
+ However, in 2013 Bitcoin quickly became a mainstream phenomenon as it was
+ reported on in the mainstream media such as by The BBC, The Economist,
+ Time Magaine, and many more.
+ This increased attention created a surge in the uptake of Bitcoin both
+ as an investment as well as transaction mechanism.
+ However, Bitcoin also has a dark side, being initially used mostly to purchase
+ illicit goods on online marketplaces such 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "The Silk Road"
+description " "
 
-\begin_layout Itemize
-evasion of capital controls
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-evasion of taxation
-\end_layout
-
-\begin_layout Itemize
-anonymous online transactions
+, websites that are generally only available through the dark web.
+ However, the rise in popular attention has also brought the attention of
+ regulators, which has caused many of the illegal marketplaces to be taken
+ offline, as well as introduced a range of fiscal regulation, dealing with
+ bitcoin.
+ This book provides a laymens introduction to the basic principles of Bitcoin
+ and other online currencies, as well as discuss how this new phenomenon
+ can be viewed from an economic perspective, and what that would mean for
+ the development of such systems.
 \end_layout
 
 \begin_layout Standard
-This makes 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
+The Bitcoin system was based on a 2008 white paper by the same author 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nakamoto2008bitcoin"
 
 \end_inset
 
- an ideal mechanism for remittances, which nowadays can cost as much as
- 10 percent.
- Additionally no government can apply capital restrictions on these remittances.
+.
  
 \end_layout
 
 \begin_layout Standard
-The instant nature of transactions means it is well suited for online retailing.
- Credit card transactions seem instant, but in fact are not.
- A significant percentage is in fact reversed after initial clearance.
- This is very costly for retailers, this often occurs after packaging of
- shipping has started.
+Besides the fact that Bitcoin exist only digitally, its defining characteristics
+ are decentralisation and openness.
+ and every aspect of it is public and 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "open source"
+description " "
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+This quickly led to the launching of several alternative online currencies,
+ based on the Bitcoin protocol.
+ A currency based on cryptography, such as Bitcoin, is know as a 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "cryptocurrency"
+description " "
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Cryptocurrencies come with an extensive new terminology, for reference,
+ a glossary is provided in the back of the book.
 \end_layout
 
 \end_body

@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language british
+\language american
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -129,16 +129,23 @@ description " "
 \end_inset
 
 .
- Initially the project remained fairly low key, have only a small group
- of geeks participate in it.
+ Initially the project remained fairly low key, having only a small number
+ of geeks actively participating.
  However, in 2013 Bitcoin quickly became a mainstream phenomenon as it was
- reported on in the mainstream media such as The Economics, Time Magaine,
- The New York Times, and many more.
+ reported on in the mainstream media such as by The BBC, The Economist,
+ Time Magaine, and many more.
  This increased attention created a surge in the uptake of Bitcoin both
  as an investment as well as transaction mechanism.
  However, Bitcoin also has a dark side, being initially used mostly to purchase
- illicit goods on online marketplaces such The Silk Road, websites that
- are generally only available through the dark web.
+ illicit goods on online marketplaces such 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "The Silk Road"
+description " "
+
+\end_inset
+
+, websites that are generally only available through the dark web.
  However, the rise in popular attention has also brought the attention of
  regulators, which has caused many of the illegal marketplaces to be taken
  offline, as well as introduced a range of fiscal regulation, dealing with

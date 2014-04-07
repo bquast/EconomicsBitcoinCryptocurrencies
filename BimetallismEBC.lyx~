@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language american
+\language british
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -104,54 +104,40 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-Is Bitcoin Legal?
+Bimetallism in Bitcoin and Litecoin?
 \end_layout
 
 \begin_layout Standard
-The short answer is yet, of course this does not mean that anything that
- you use Bitcoin for is legal.
- That is to say, it is still illegal to purchase elicit goods, or hide holdings
- from the tax bureau.
+The situation of multiple currencies, especially in light of the gold analogy,
+ brings to mind the idea of bimetallism, the monetary system where the currency
+ is based not just on gold, but also on silver.
+ The two being interchangeable at a fixed rate.
 \end_layout
 
 \begin_layout Standard
-The legal standing of Bitcoin is different in many countries.
+Also in the light of bimetallism, we can consider Gresham's law.
+ Bad money drives out good.
+ In the case of bimetallism, the most circulated specie will be the one
+ which is currently considered to be undervalued by the official exchange
+ rate.
+ Meaning that if silver becomes more abundant, its relative value will decrease,
+ and people will first spend their silver coins, before they spend their
+ gold ones.
+ Since exchange rates between cryptocurrencies are freely floating, there
+ is no 'bad money', since each currency is valued at market rate.
+ Interestingly enough, the rate between Bitcoin and Litecoin seems to trade
+ in a very narrow band, especially considering the volatility vis-a-vis
+ fiat currencies.
  
 \end_layout
 
-\begin_layout Section
-Currency or Financial Asset?
-\end_layout
-
 \begin_layout Standard
-In the initial days of Bitcoin, especially when it was mainly used for purchasin
-g illicit goods, some held the belief that most governments would perceive
- Bitcoin as a threat to their monopoly on currency and for this reason would
- ban it.
- This already being contrasted by governments of the EMU member states,
- who have volutarily surrendered their monetary monopoly for what is essentially
- a 'foreign' currency.
- It turns out most government are more interested in taxing it, than they
- are in outlawing it.
- For this reason Bitcoin has in many places been classified as a financial
- instument.
- If Bitcoins are derived from mining, they are to be taxed under income
- tax.
- If Bitcoins are purchased these will be taxed as financial holdings.
- Again, the gold analogy holds.
-\end_layout
-
-\begin_layout Standard
-In many places Bitcoin has been classified as a financial asset for purposes
- of taxation.
- This means that it is not recognised as a currency again for purposes of
- taxation.
- It several court rulings however, it has been found that Bitcoin does act
- as a currency.
- In both cases the legality of Bitcoin is underlines, however, the distinction
- can be relevant in some cases.
- For instance, in case of a bankrupcy (such as the 2014 Mt.
- Gox case) financial assets and currencies are treated quite differently.
+However, there is a crowding out of sort.
+ This is perhaps best compared to international currency competition.
+ Where there is a competition for the privilege of being a reserve currency.
+ A foreign investor can choose exchange his national fiat currency for e.g.
+ the US Dollar or the Euro.
+ In these markets, the good currencies drive out the bad.
 \end_layout
 
 \end_body

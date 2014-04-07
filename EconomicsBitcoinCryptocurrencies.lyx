@@ -20,13 +20,12 @@
 
 \let\nomenclature\gls
 \end_preamble
-\options a5paper
 \use_default_options true
 \begin_modules
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language british
+\language american
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -51,7 +50,8 @@ biblatex
 \use_hyperref true
 \pdf_title "Economics of Bitcoin and Cryptocurrenies"
 \pdf_author "Bastiaan Quast"
-\pdf_keywords "bitcoin, cryptocurrencies, economics"
+\pdf_subject "An overview of the basic principles and economics of Bitcoin and other cryptocurrencies."
+\pdf_keywords "bitcoin, cryptocurrencies, economics, welfare, competition, Hayek"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -61,7 +61,7 @@ biblatex
 \pdf_colorlinks false
 \pdf_backref false
 \pdf_pdfusetitle true
-\papersize default
+\papersize a5paper
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
@@ -87,7 +87,7 @@ biblatex
 \color #008000
 \end_index
 \secnumdepth 0
-\tocdepth 3
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -284,7 +284,7 @@ filename "InflationEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "PerfectForesightEBC.lyx"
+filename "BimetallismEBC.lyx"
 
 \end_inset
 
@@ -294,7 +294,7 @@ filename "PerfectForesightEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "BimetallismEBC.lyx"
+filename "PerfectForesightEBC.lyx"
 
 \end_inset
 
@@ -354,6 +354,22 @@ bigskip}
 \begin_inset CommandInset include
 LatexCommand include
 filename "ConclusionEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
 
 \end_inset
 
