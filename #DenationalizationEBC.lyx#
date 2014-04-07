@@ -86,8 +86,8 @@ biblatex
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 0
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -120,7 +120,7 @@ description " "
 
 .
  The main idea behind crypto-anarchism is that cryptography empowers individuals
- to avoid government control.
+ to protect themselves from harmfull government medelling.
  It is not suprising that many of the economic principles on which 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
@@ -130,7 +130,7 @@ description " "
 \end_inset
 
  is based, are commonly identified with government weary schools of thought
- is economics academia, such as the Austrian School and Monetary Economics.
+ is economic academia, such as the Austrian School and Monetary Economics.
  
 \end_layout
 
@@ -179,6 +179,30 @@ Although Hayek firmly believed in the self-regulating currency market, the
  the currencies.
  Cryptocurrencies go a step further, in making the currencies self-regulating
  and making only the individuals currency holders self-serving actors.
+\end_layout
+
+\begin_layout Section
+Faith in Markets
+\end_layout
+
+\begin_layout Standard
+It is clear from the discussion of Hayek's view that denationalization of
+ money relies on a highly effective market order.
+ This seems problematic in several ways.
+ Firstly, as history has shown, the fact that banks (which would be the
+ issuers of currencies
+\end_layout
+
+\begin_layout Standard
+In recent years, there have been many economic insights into how, under
+ a situation of information asymetry, market efficiency does not hold (STIGLITZ).
+ In a sitution where several dominant currencies have a lot of market power,
+ it would not be hard to conceive of a situation where these companies could
+ utilize their information advantage to extract rents from the public.
+ We can now see how a cryptocurrency would fit this idea even more than
+ a privately owned currency.
+ All information about the currency is always recorded in the public ledger,
+ and directly accessible on the internet.
 \end_layout
 
 \end_body

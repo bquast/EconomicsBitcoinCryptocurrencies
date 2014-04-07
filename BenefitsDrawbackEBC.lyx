@@ -126,7 +126,7 @@ no need for middlemen, such as banks
 virtually instant transactions
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 A Self-Regulating System
 \end_layout
 
@@ -141,7 +141,7 @@ The Bitcoin system is self-regulating, meaning that no government or institution
  of individuals holdings.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 No middlemen
 \end_layout
 
@@ -154,7 +154,7 @@ Secondly, users control their own holdings on their own computer, which
 ng after speculative investing or something of that sort.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Virtually Instant Transactions
 \end_layout
 
@@ -165,10 +165,6 @@ Thirdly, transactions are as easy, instant, and costless as sending an email.
  Additionally, it is equally valid across countries, which means that there
  is no need to exchange it.
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body

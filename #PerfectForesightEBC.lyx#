@@ -104,102 +104,22 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-What is Bitcoin?
+Perfect Foresight
 \end_layout
 
 \begin_layout Standard
-A short answer is that it is an online anonymous currency which is not controlle
-d by a government or any single entity.
- However, from a technical as well as a from a social perspective there
- are many innovative features to 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
-.
- For instance, users hold his funds himself.
- Meaning that there is no need for a middleman, such as a bank.
- This prevents fees and eliminates risks associated with bank insolvency.
- 
+In many economic models, agents expectations are modeled as being either,
+ adaptive, perfectly rational, or in some extreme cases, having perfect
+ foresight.
+ The situation where agents exhibit perfect foresight is not intended as
+ realistic economic modelling, as much as it is used a benchmark for economicall
+y optimal outcomes.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
-is built from the ground up to be decentralized, anonymous, and openly verifiabl
-e.
- All software is open source and publicly available.
- Anybody is free to perform any function within the network (user or node),
- there is no central or essential node, there is redundancy in every aspect.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description " "
-
-\end_inset
-
-is a confusing term.
- It is both a monetary unit of denomination, such as Swiss franc, euro,
- or pound sterling, as well as, the monetary system as a whole, including
- the protocol, the network, and all participants.
- To distinguish between the two, the monetary system 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- is written with a capital letter B, whereas the monetary unit of account
- is 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "bitcoin"
-description " "
-
-\end_inset
-
-, is written with a small letter b.
- Besides these two, there is the original 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- software, which is called
-\series bold
- 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin-Qt"
-description " "
-
-\end_inset
-
-
-\series default
-, using this software package, or others, computer can connect to the 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- network and perform transactions.
+Bitcoin and most other cryptocurrencies have the interesting feature that
+ the path of monetary expansion is almost perfectly predicted.
+ The rate at wish new bitcoins are mined is to a very large degree predetermined.
 \end_layout
 
 \end_body

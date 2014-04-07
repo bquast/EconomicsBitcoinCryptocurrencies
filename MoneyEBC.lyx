@@ -108,9 +108,10 @@ Is Bitcoin Money?
 \end_layout
 
 \begin_layout Standard
-What is money? Some answers are obvious, well established currencies such
- as the US Dollar are.
- But the Euro is not a national currency, it is not owned by a state.
+What is money? Sometimes it is obvious, well established currencies such
+ as the US Dollar, the Japanse Yen or the Swiss Franc are.
+ How about the Euro, it is not a national currency, it is not owned by a
+ state, but rather by a collective of member state representatives.
  Zimbabwe owns their own currency, but this has become essentially useless.
  What if money is moved from one, bank account to another bank account at
  the same bank in the same country, through ebanking.
@@ -189,44 +190,63 @@ The criteria (1.) and (3.) are clearly fulfilled.
  volatile price as denoted in fiat currency.
 \end_layout
 
-\begin_layout Section*
-Legal Issues
-\end_layout
-
-\begin_layout Standard
-As mentioned above, there are two legal issues, recognition as being legal,
- alongside a legal classification of Bitcoin, as well as the issue of legal
- tender.
- We will discuss these here.
-\end_layout
-
-\begin_layout Subsection*
-Legal Recognition and Classification
-\end_layout
-
-\begin_layout Standard
-In the initial days of Bitcoin, especially when it was mainly used for purchasin
-g illicit goods, some held the belief that most governments would perceive
- Bitcoin as a threat to their monopoly on currency and for this reason would
- ban it.
- This already being contrasted by governments of the EMU member states,
- who have volutarily surrendered their monetary monopoly for a 'foreign'
- currency.
- It turned out most government where more interested in taxing it.
- For this reason Bitcoin has in many places been classified as a financial
- instument.
- If Bitcoins are derived from mining, they are to be taxed using income
- tax.
- If Bitcoins are purchased these will be taxed as financial holdings.
-\end_layout
-
-\begin_layout Subsection*
+\begin_layout Section
 Legal Tender
 \end_layout
 
 \begin_layout Standard
-What is legal tender? why do we need it, why dont we need it in bitcoin,
- refer to the chapter of why bictoin
+In discussion about the status of Bitcoin as money, the issue of legal tender
+ is often heard.
+ The discussion is somewhat misguided in the sense that legal tender is
+ more of a means to an end, rather than a goal in its own right.
+\end_layout
+
+\begin_layout Standard
+Legal tender is a rule in which a government imposes on the inhabitants
+ of a territory, that within that territory everyone must accept the currency
+ deemed legal tender, as payment for debt, goods, or services.
+ Legal tender is thus a way for a government to create a market for a currency,
+ this currency generally being the one controlled by the same government.
+ There are many good reasons for doing so.
+ It creates a certain level of certainty, if I want to buy something in
+ Switzerland, I know that Swiss Francs will be a means of paying.
+ In short, if somebody offers to pay in a currency that is legal tender
+ in the relevant territory, the seller has to accept this.
+\end_layout
+
+\begin_layout Standard
+At the time of writing, Bitcoin has not been deemed legal tender anywhere,
+ so how problematic is this? As mentioned above, legal tender is means for
+ government to create a market for a currency.
+ Yet this is not the only way for a currency to establish itself.
+ This book is being written in the city of Geneva, Switzerland.
+ The city is almost completely surrounded by France.
+ If we cross the French-Swiss border on one side, and continue on straight,
+ we would cross back into France in just a few kilometers.
+ Switzerland is not part of the European Monetary Union, nor even of the
+ European Union, and therefore does not use the Euro, but rather the Swiss
+ Franc as a currency.
+ However, most of people working Geneva commute back to France.
+ The cross border commute is so common, that nearly all places, including
+ state owned enterprises such as the Geneva Public Transport (TPG) accept
+ the euro.
+ Despite the fact that the Euro is not legal tender in Geneva, it is accepted
+ based on mutual consent.
+ For clients it often favorable if they do not carry Swiss Francs, and retailers
+ are awarded an exchange rate fee.
+ Similarly, in many Latin-American countries, it is very common to accept
+ the US Dollar as a form of payment.
+\end_layout
+
+\begin_layout Standard
+Bitcoin seeks to establish itself through a popular mandate, rather than
+ a government one.
+ That is to say, by being a more competitive means of transaction for both
+ the retailer and the customer.
+ If Bitcoin is more favorable to both customer and retailer, then the customer
+ can offer to pay in Bitcoin, and the retailer can choose to accept it.
+ In it thus through being more interesting as a method of payment, rather
+ than through a government mandate that Bitcoin seems to be accepted.
 \end_layout
 
 \end_body

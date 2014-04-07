@@ -104,102 +104,71 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-What is Bitcoin?
+Benefits and Drawbacks
 \end_layout
 
 \begin_layout Standard
-A short answer is that it is an online anonymous currency which is not controlle
-d by a government or any single entity.
- However, from a technical as well as a from a social perspective there
- are many innovative features to 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
+There are many benefits to using cryptocurrencies such as Bitcoin, some
+ apply now other may come to be if and when cryptocurrencies become more
+ adopted in more conventional places.
+ Some key benefits include:
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+a self-regulating system, no unexpected interventions
+\end_layout
 
-.
- For instance, users hold his funds himself.
- Meaning that there is no need for a middleman, such as a bank.
- This prevents fees and eliminates risks associated with bank insolvency.
+\begin_layout Itemize
+no need for middlemen, such as banks
+\end_layout
+
+\begin_layout Itemize
+virtually instant transactions
+\end_layout
+
+\begin_layout Section*
+A Self-Regulating System
+\end_layout
+
+\begin_layout Standard
+The Bitcoin system is self-regulating, meaning that no government or institution
+ controls it.
+ For the user that means that their holdings cannot be used as a policy
+ instrument.
+ Conventional fiat currencies are owned by a government, which means that
+ they can be used to e.g.
+ stimulate economic growth by printing extra money, which lessens the value
+ of individuals holdings.
+\end_layout
+
+\begin_layout Section*
+No middlemen
+\end_layout
+
+\begin_layout Standard
+Secondly, users control their own holdings on their own computer, which
+ eliminates the need for a bank.
+ This brings the advantage that users are not dependent on open hours, waiting
+ lines, or e-banking websites, it also means no fees.
+ Additionally a user's holdings cannot be wiped out by his or her bank bankrupti
+ng after speculative investing or something of that sort.
+\end_layout
+
+\begin_layout Section*
+Virtually Instant Transactions
+\end_layout
+
+\begin_layout Standard
+Thirdly, transactions are as easy, instant, and costless as sending an email.
+ Bitcoin exists online digitally, which means that there is no physical
+ counterpart that needs to be moved, such as with gold, or paper money.
+ Additionally, it is equally valid across countries, which means that there
+ is no need to exchange it.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
 
-\end_inset
-
-is built from the ground up to be decentralized, anonymous, and openly verifiabl
-e.
- All software is open source and publicly available.
- Anybody is free to perform any function within the network (user or node),
- there is no central or essential node, there is redundancy in every aspect.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description " "
-
-\end_inset
-
-is a confusing term.
- It is both a monetary unit of denomination, such as Swiss franc, euro,
- or pound sterling, as well as, the monetary system as a whole, including
- the protocol, the network, and all participants.
- To distinguish between the two, the monetary system 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- is written with a capital letter B, whereas the monetary unit of account
- is 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "bitcoin"
-description " "
-
-\end_inset
-
-, is written with a small letter b.
- Besides these two, there is the original 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- software, which is called
-\series bold
- 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin-Qt"
-description " "
-
-\end_inset
-
-
-\series default
-, using this software package, or others, computer can connect to the 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description "  "
-
-\end_inset
-
- network and perform transactions.
 \end_layout
 
 \end_body

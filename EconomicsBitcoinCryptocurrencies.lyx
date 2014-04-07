@@ -86,7 +86,7 @@ biblatex
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
+\secnumdepth 0
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
@@ -275,6 +275,16 @@ filename "DenationalizationEBC.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "InflationEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "PerfectForesightEBC.lyx"
 
 \end_inset
 
