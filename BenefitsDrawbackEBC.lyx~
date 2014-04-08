@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language british
+\language american
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -126,6 +126,22 @@ no need for middlemen, such as banks
 virtually instant transactions
 \end_layout
 
+\begin_layout Standard
+However, there are also a number of important drawbacks, such as:
+\end_layout
+
+\begin_layout Itemize
+Extreme relience on the Bitcoin protocol
+\end_layout
+
+\begin_layout Itemize
+Severe consequences of being hacked
+\end_layout
+
+\begin_layout Itemize
+Increased Relience on the Internet
+\end_layout
+
 \begin_layout Section
 A Self-Regulating System
 \end_layout
@@ -165,6 +181,44 @@ Thirdly, transactions are as easy, instant, and costless as sending an email.
  Additionally, it is equally valid across countries, which means that there
  is no need to exchange it.
  
+\end_layout
+
+\begin_layout Section
+Full Relience on the Protocol
+\end_layout
+
+\begin_layout Standard
+If there is an erro in an online banking system this has the potential to
+ create enormous problems.
+ However, in situations like these, the banking system can always fall back
+ on the underlying legal system.
+ For Bitcoin there is no such fallback mechanism, if a critical error were
+ to be found in the system, it would render not only have the potentional
+ for things to go wrong, it would eliminate the trust in the system, yet
+ more then any other system, Bitcoin relies on this trust.
+ Therefore a single error could wipe out the system.
+\end_layout
+
+\begin_layout Section
+Severe Consequences of Being Hacked
+\end_layout
+
+\begin_layout Standard
+In anyonline sphere hacking has always been a problem, often it is made
+ lucrative by stealing creditcard details or other personal information.
+ However, when savings are stored in Bitcoin, the potential damage of being
+ hacked is much greater than having your creditcard charged with something
+ you did not buy, it could wipe out all of your savings.
+\end_layout
+
+\begin_layout Section
+Increased Relience on the Internet
+\end_layout
+
+\begin_layout Standard
+Using Bitcoin as a payment mechanism is very effective since everything
+ is conducted online, however, it also means that without availability of
+ internet, everything comes to a halt.
 \end_layout
 
 \end_body

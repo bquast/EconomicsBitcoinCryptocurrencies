@@ -26,7 +26,7 @@
 biblatex
 \end_modules
 \maintain_unincluded_children false
-\language british
+\language american
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -119,8 +119,16 @@ description " "
 \end_inset
 
 .
- The main idea behind crypto-anarchism is that cryptography empowers individuals
- to protect themselves from harmfull government medelling.
+ The main idea behind 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "crypto-anarchism"
+description " "
+
+\end_inset
+
+ is that cryptography empowers individuals to protect themselves from harmfull
+ government medelling.
  It is not suprising that many of the economic principles on which 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature

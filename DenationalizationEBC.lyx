@@ -119,8 +119,23 @@ description " "
 \end_inset
 
 .
- The main idea behind crypto-anarchism is that cryptography empowers individuals
- to protect themselves from harmfull government medelling.
+ The main idea behind 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "crypto-anarchism"
+description " "
+
+\end_inset
+
+ is that 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "cryptography"
+description " "
+
+\end_inset
+
+ empowers individuals to protect themselves from harmfull government medelling.
  It is not suprising that many of the economic principles on which 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
