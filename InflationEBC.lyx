@@ -108,64 +108,23 @@ Cryptocurrencies and Inflation
 \end_layout
 
 \begin_layout Standard
-As the value of a 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "bitcoin"
-description " "
-
-\end_inset
-
- goes up, more people will choose to engage in the lucrative 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "mining"
-description " "
-
-\end_inset
-
-.
- As extra computational power comes in, the difficulty of 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "mining"
-description " "
-
-\end_inset
-
- automatically goes up, which means more computing power is used for the
- same transactions.
- This is necessary to safeguard the integrity of the network.
+At the time of writing around thirteen million bitcoins have been mined,
+ all of this has been mined since the inception of Bitcoin in 2009.
+ Currently bitcoins are still being mined, however, this is occuring at
+ a decreasing rate.
+ Since the parameters which determine the amount of bitcoins being mined
+ are fixed.
+ We can very accurately predict the growth of the amount of bitcoins in
+ circulation, not taking into account bitcoins that are lost or otherwise
+ taken off the market.
+ It is predicted that the last bitcoin will be mined around the year 2140,
+ at which point around 21 million bitcoins will have been mined.
 \end_layout
 
 \begin_layout Standard
-Having established the key features of the 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "Bitcoin"
-description " "
 
-\end_inset
-
- system, we will now focus on two often heard economic concerns about the
- Bitcoin system.
- Namely the issue of 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "deflation"
-description " "
-
-\end_inset
-
- and the issue of socially wasteful 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "mining"
-description " "
-
-\end_inset
-
-.
+\color red
+Quantity theory of money, value and volume
 \end_layout
 
 \begin_layout Standard
@@ -180,7 +139,7 @@ description " "
 
 \end_inset
 
- in a currencies value provides a disincentive to spend, causing economic
+ in a currency's value provides a disincentive to spend, causing economic
  slowdown 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -191,10 +150,14 @@ key "fisher1933debt"
 
 .
  Since deflation causes the price of products to fall, it incentivises people
- to save ans spend later.
+ to save and spend later, which causes the economy to come to a halt.
  Additionally, these savings are not invested properly, since deflation
  simultaneously provides a disincentive for borrowers, by making future
  paybacks more expensive, raising the effective interest rate.
+\end_layout
+
+\begin_layout Section
+Inflation in currencies, not coins
 \end_layout
 
 \begin_layout Standard
