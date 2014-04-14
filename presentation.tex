@@ -1,0 +1,153 @@
+% GRADUATE INSTITUTE, GENEVA
+% Bastiaan Quast
+% bastiaan.quast@graduateinstitute.ch
+
+% This file is a slight modification of the original by Till Tantau.
+% called generic-ornate-15min-45min.en.tex
+% which is included with the Texlive distribution
+
+% INSTRUCTIONS FOR THE GENEVA PACKAGE
+% simply calling the packge will use the Graduate Institute Theme
+% if you pass the cfd option (default), the CFD theme will be used.
+% to do this, remove '[cfd]' on line 21
+
+% NOTES ON THIS FILE
+% passed the option handout in the documentclass (line 20)
+% changed theme to Berkeley (line 24)
+% use the colortheme 'geneva' lines 33-34
+% hide the navigation bar (line 37)
+
+\documentclass[]{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Berkeley}  
+  % \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+% BQ: load the color theme
+\usecolortheme%[cfd] % uses the CFD theme, to the GI theme, comment out '[cfd]' on this line (by directly preceding it with a %)
+{geneva}
+
+% BQ: hide the navigation bar
+\usenavigationsymbolstemplate{}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[] % (optional, use only with long paper titles)
+{Economics of Bitcoin and Cryptocurrencies}
+
+\subtitle
+{Hayek's paradise} % (optional)
+
+\author[] % (optional, use only with lots of authors)
+{Bastiaan Quast\footnote{PhD Development Economics; The Graduate Institute, Geneva}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+\section{The Basics}
+\subsection{What is Bitcoin?}
+
+\begin{frame}{What is Bitcoin?}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+
+  \begin{itemize}
+  \item
+    Use \texttt{itemize} a lot.
+  \item
+    Use very short sentences or short phrases.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Make Titles Informative.}
+
+  You can create overlays\dots
+  \begin{itemize}
+  \item using the \texttt{pause} command:
+    \begin{itemize}
+    \item
+      First item.
+      \pause
+    \item    
+      Second item.
+    \end{itemize}
+  \item
+    using overlay specifications:
+    \begin{itemize}
+    \item<3->
+      First item.
+    \item<4->
+      Second item.
+    \end{itemize}
+  \item
+    using the general \texttt{uncover} command:
+    \begin{itemize}
+      \uncover<5->{\item
+        First item.}
+      \uncover<6->{\item
+        Second item.}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\subsection{How does Bitcoin Work?}
+
+\section{The Economics}
+
+\subsection{Denationalization of Money}
+
+\subsection{Cryptocurrency Inflation}
+
+\subsection{Bimetallism in Bitcoin and Litecoin}
+
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\end{document}

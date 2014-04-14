@@ -384,7 +384,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "bibliography"
+bibfiles "/home/bquast/LaTeX/bibliography"
 options "plain"
 
 \end_inset

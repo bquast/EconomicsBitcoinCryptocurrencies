@@ -209,11 +209,66 @@ It is clear from the discussion of Hayek's view that denationalization of
  does not lead to the decision makers acting in such a fashion, rather than
  in their own (short-run) interests, much the same as Hayek feels the government
  acts.
- Secondly, if a market for currencies is formed, the social capacity to
- come with any number of currencies is limited.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+before "p. 48"
+key "hayek1978denationalization"
+
+\end_inset
+
+ compares the faith in currency issuers to the faith commonly invested in
+ banks (in the absense of a deposit quaranty system).
+\end_layout
+
+\begin_layout Quote
+The kind of trust on which private money would rest would not be very different
+ from the trust on which today all private banking rests (or in the United
+ States rested before the governmental deposit insurance scheme!).
+ People today trust that a bank, to preserve its business, will arrange
+ its affairs so that it will at all times be able to exchange demand deposits
+ for cash, although they know that banks do not have enough cash to do so
+ if everyone exercised his right to demand instant payment at the same time.
+\end_layout
+
+\begin_layout Standard
+It is easy to see how this situation is less than ideal, yes people have
+ put their money in banks, but only for lack of alternatives.
+ The system is generally considered problematic.
+ Hence the the rise of deposit insurances schemes, such as the one mentioned
+ in the above quote.
+\end_layout
+
+\begin_layout Standard
+Secondly, if a market for currencies is formed, the social capacity to come
+ with any number of currencies is limited.
  This would thus lead to a situation where a relatively small number of
  currencies coexist, a situation of oligarchy would thus arise, rather then
  a effect market.
+ Indeed Hayek expects this himself 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "p. 43"
+key "hayek1978denationalization"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+With variable exchange rates, however, the inferior quality money would
+ be valued at a lower rate and, particularly if it threatened to fall further
+ in value, people would try to get rid of it as quickly as possible.
+ The selection process would go on towards whatever they regarded as the
+ best sort of money among those issued by the various agencies, and it would
+ rapidly drive out money found inconvenient or worthless.
+\end_layout
+
+\begin_layout Standard
+If the selection process continues until only the best remains, it is inevitable
+ that substantial market power is attained by these select few parties which
+ control these currencies.
 \end_layout
 
 \begin_layout Standard
