@@ -1,14 +1,11 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass beamer
 \begin_preamble
-% add the multicol package
-\usepackage{multicol}
-
 % set theme to graduate institute
-%\usetheme{berkeley}
+\usetheme{Berkeley}
 \usecolortheme{geneva}
 
 % hide navigation bar
@@ -23,13 +20,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
-\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
+
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -50,24 +47,15 @@
 \pdf_pdfusetitle true
 \papersize default
 \use_geometry true
-\use_package amsmath 1
-\use_package amssymb 1
-\use_package cancel 0
-\use_package esint 1
-\use_package mathdots 1
-\use_package mathtools 0
-\use_package mhchem 1
-\use_package stackrel 0
-\use_package stmaryrd 0
-\use_package undertilde 0
-\cite_engine natbib
-\cite_engine_type authoryear
-\biblio_style plainnat
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -102,20 +90,10 @@ Bastiaan Quast
 The Graduate Institute, Geneva
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout BeginFrame
 Overview
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
@@ -125,39 +103,16 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
 \begin_layout Section
 The Basics
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout BeginFrame
 The Basics?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{multicols}{2}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -165,7 +120,15 @@ What is Bitcoin?
 \end_layout
 
 \begin_layout Itemize
-some more stuff
+peer-to-peer online payment system
+\end_layout
+
+\begin_layout Itemize
+decentralised open system
+\end_layout
+
+\begin_layout Itemize
+open-source
 \end_layout
 
 \begin_layout Standard
@@ -189,7 +152,51 @@ signature
 \end_layout
 
 \begin_layout Itemize
+mining
+\end_layout
+
+\begin_layout Itemize
 blockchain
+\end_layout
+
+\begin_layout Standard
+What are the Drawbacks?
+\end_layout
+
+\begin_layout Itemize
+full relience on the protocol
+\end_layout
+
+\begin_layout Itemize
+relience on the internet
+\end_layout
+
+\begin_layout Itemize
+hacking: more frequent and more severe
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+The Basics II
+\end_layout
+
+\begin_layout Standard
+What are the Benefits?
+\end_layout
+
+\begin_layout Itemize
+virtually instant transactions
+\end_layout
+
+\begin_layout Itemize
+no middle men
+\end_layout
+
+\begin_layout Itemize
+highly predictable system (no boom-bust cycles?)
 \end_layout
 
 \begin_layout Standard
@@ -197,19 +204,15 @@ When is Bitcoin useful?
 \end_layout
 
 \begin_layout Itemize
-Capital Controls
-\end_layout
-
-\begin_layout Itemize
-Financial inclusion / empowerment
-\end_layout
-
-\begin_layout Itemize
-Middle men
+financial inclusion / empowerment
 \end_layout
 
 \begin_layout Itemize
 remittances
+\end_layout
+
+\begin_layout Itemize
+capital controls
 \end_layout
 
 \begin_layout Standard
@@ -229,11 +232,15 @@ store of value
 \end_layout
 
 \begin_layout Enumerate
+standard of deferred payment
+\end_layout
+
+\begin_layout Enumerate
 legal tender?!
 \end_layout
 
 \begin_layout Standard
-Is Bitcoin Legal
+Is Bitcoin Legal?
 \end_layout
 
 \begin_layout Itemize
@@ -241,41 +248,18 @@ currency vs.
  financial asset
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{multicols}
-\end_layout
-
-\end_inset
-
+\begin_layout EndFrame
 
 \end_layout
 
-\end_deeper
 \begin_layout Section
 The Economics
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout BeginFrame
 The Economics
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Standard
 Denationalized Money: Hayek's Paradise
 \end_layout
@@ -292,33 +276,44 @@ no inflation
 limited number -> information asymentry -> market failure
 \end_layout
 
+\begin_layout Itemize
+situation on international currency competition (David D.
+ Howard)
+\end_layout
+
+\begin_layout Itemize
+Has the Govermment a Role in Money? (list of good reasons, Friedman & Schwartz,
+ 1985)
+\end_layout
+
 \begin_layout Standard
 Cryptocurrencies and Inflation
 \end_layout
 
 \begin_layout Itemize
-not with a cryptocoin, but through plurality
+not within a cryptocoin, but through plurality
 \end_layout
 
-\end_deeper
+\begin_layout Standard
+Free banking
+\end_layout
+
+\begin_layout Itemize
+similar?
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
 \begin_layout Section
 The Social Value
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout BeginFrame
 The Social Value
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Standard
 Is Mining Socially Wasteful?
 \end_layout
@@ -339,6 +334,9 @@ Proof of Stake
 inflation or not
 \end_layout
 
-\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
 \end_body
 \end_document

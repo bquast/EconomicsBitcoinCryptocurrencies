@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -12,7 +12,7 @@
 \glossarystyle{altlistgroup}
 
 % add the bibliography file (linux location)
-\addbibresource{~/LaTeX/bibliography.bib} 
+\addbibresource{~/Drive/LaTeX/bitcoin.bib} 
 
 \input{glossaries.tex}
 
@@ -274,7 +274,7 @@ filename "DenationalizationEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "InflationEBC.lyx"
+filename "GoodReasons.lyx"
 
 \end_inset
 
@@ -284,7 +284,7 @@ filename "InflationEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "BimetallismEBC.lyx"
+filename "InflationEBC.lyx"
 
 \end_inset
 
@@ -384,7 +384,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "/home/bquast/LaTeX/bibliography"
+bibfiles "/home/bquast/Drive/LaTeX/bitcoin"
 options "plain"
 
 \end_inset

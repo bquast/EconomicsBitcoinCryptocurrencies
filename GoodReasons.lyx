@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -104,31 +104,18 @@ biblatex
 \begin_body
 
 \begin_layout Chapter
-Bimetallism in Bitcoin and Litecoin?
+Friedmans Good Reasons
 \end_layout
 
 \begin_layout Standard
-The situation of multiple currencies, especially in light of the gold analogy,
- brings to mind the idea of bimetallism, the monetary system where the currency
- is based not just on gold, but also on silver.
- The two being interchangeable at a fixed rate.
-\end_layout
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "friedman1960program"
 
-\begin_layout Standard
-Also in the light of bimetallism, we can consider Gresham's law.
- Bad money drives out good.
- In the case of bimetallism, the most circulated specie will be the one
- which is currently considered to be undervalued by the official exchange
- rate.
- Meaning that if silver becomes more abundant, its relative value will decrease,
- and people will first spend their silver coins, before they spend their
- gold ones.
- Since exchange rates between cryptocurrencies are freely floating, there
- is no 'bad money', since each currency is valued at market rate.
- Interestingly enough, the rate between Bitcoin and Litecoin seems to trade
- in a very narrow band, especially considering the volatility vis-a-vis
- fiat currencies.
- 
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
