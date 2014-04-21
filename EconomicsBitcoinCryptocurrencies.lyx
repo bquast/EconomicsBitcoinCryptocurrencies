@@ -19,6 +19,10 @@
 \makeglossaries
 
 \let\nomenclature\gls
+
+\AtBeginDocument{%
+\let\ref\autoref
+}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -262,6 +266,16 @@ The Economics
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "part:economics"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "DenationalizationEBC.lyx"
@@ -288,10 +302,6 @@ filename "InflationEBC.lyx"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

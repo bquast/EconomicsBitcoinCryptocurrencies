@@ -206,29 +206,7 @@ reference "part:economics"
 \end_inset
 
  we discuss the economics of Bitcoin and the economy of cryptocurrencies
- from the perspective of several economic schools of thought that have relevant
- literature on it, such as the Austrian School (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:denationalization"
-
-\end_inset
-
-), Monetary Economics (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:goodreasons"
-
-\end_inset
-
-), and neo-Keynesianism (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:inflation"
-
-\end_inset
-
-).
+ from the perspective of several economic schools of thought that have di
 \end_layout
 
 \begin_layout Standard

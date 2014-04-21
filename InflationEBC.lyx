@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -105,6 +105,16 @@ biblatex
 
 \begin_layout Chapter
 Cryptocurrencies and Inflation
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:inflation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

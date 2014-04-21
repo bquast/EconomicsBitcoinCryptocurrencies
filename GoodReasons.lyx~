@@ -108,14 +108,37 @@ Friedmans Good Reasons
 \end_layout
 
 \begin_layout Standard
-In 
+In Milton Friedman 
 \begin_inset CommandInset citation
-LatexCommand citet
-key "friedman1960program"
+LatexCommand citep
+key "friedman1960program,friedman1986has"
 
 \end_inset
 
-.
+ proposed a list of 'Good Reasons' why monetary arrangement have seldomly
+ been left to the market.
+\end_layout
+
+\begin_layout Enumerate
+the resource cost of a pure commodity currency and hence its tendency to
+ become partly fiduciary
+\end_layout
+
+\begin_layout Enumerate
+the peculiar difficulty of enforcing contracts involving promises to pay
+ that serve as a medium of exchange and of preventing fraud in respect to
+ them
+\end_layout
+
+\begin_layout Enumerate
+the technical monopoly character of a pure fiduciary currency which makes
+ essential the setting of some external limit on its amount
+\end_layout
+
+\begin_layout Enumerate
+the pervasive character of money which means that the issuance of money
+ has important effects of parties other than those directly involved and
+ gives special importance to the preceding features.
 \end_layout
 
 \begin_layout Standard

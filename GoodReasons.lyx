@@ -108,6 +108,16 @@ Friedmans Good Reasons
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:goodreasons"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 In Milton Friedman 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -120,7 +130,7 @@ key "friedman1960program,friedman1986has"
 \end_layout
 
 \begin_layout Enumerate
-the resouce cost of a pure commodity currency and hence its tendency to
+the resource cost of a pure commodity currency and hence its tendency to
  become partly fiduciary
 \end_layout
 
@@ -139,10 +149,6 @@ the technical monopoly character of a pure fiduciary currency which makes
 the pervasive character of money which means that the issuance of money
  has important effects of parties other than those directly involved and
  gives special importance to the preceding features.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
