@@ -120,15 +120,7 @@ name "chap:inflation"
 \begin_layout Standard
 At the time of writing around thirteen million bitcoins have been mined,
  all of this has been mined since the inception of Bitcoin in 2009.
- Currently bitcoins are still being mined, however, this is occuring at
- a decreasing rate.
- Since the parameters which determine the amount of bitcoins being mined
- are fixed.
- We can very accurately predict the growth of the amount of bitcoins in
- circulation, not taking into account bitcoins that are lost or otherwise
- taken off the market.
- It is predicted that the last bitcoin will be mined around the year 2140,
- at which point around 21 million bitcoins will have been mined.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -174,10 +166,120 @@ name "fig:total.bitcoins"
 \end_layout
 
 \begin_layout Standard
+Currently bitcoins are still being mined, however, this is occuring at a
+ decreasing rate.
+ Since the parameters which determine the amount of bitcoins being mined
+ are fixed.
+ We can very accurately predict the growth of the amount of bitcoins in
+ circulation, not taking into account bitcoins that are lost or otherwise
+ taken off the market.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Medium-Term Prediction of bitcoins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:medium.prediction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename charts/short-prediction-bitcoins.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is predicted that the last bitcoin will be mined around the year 2140,
+ at which point around 21 million bitcoins will have been mined.
+\end_layout
+
+\begin_layout Standard
 As mentioned above, there will only ever be around 21 million bitcoins,
  and some will be lost, this makes the system deflationary, which is troubling
  to economists.
- A 
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Long-Term Prediction of bitcoins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:predicted.bitcoins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename charts/prediction.bitcoins.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A 
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "deflation"

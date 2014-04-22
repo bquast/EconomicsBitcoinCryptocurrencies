@@ -10,7 +10,10 @@ library(ggplot2)
 library(scales)
 
 # read the data
-total.bitcoins <- read.csv("charts/total-bitcoins")
+total.bitcoins <- read.csv('charts/total-bitcoins.csv')
+
+# inspect data
+View(total.bitcoins)
 
 # convert the time string to a time object
 total.bitcoins$time <- strptime(total.bitcoins$time, "%d/%m/%Y %H:%M:%S")
