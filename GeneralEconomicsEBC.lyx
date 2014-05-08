@@ -1,0 +1,346 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{bookmark}
+
+\usepackage[authordate,natbib,backend=biber]{biblatex-chicago}
+
+\usepackage[toc]{glossaries}
+\glossarystyle{altlistgroup}
+
+% add the bibliography file (linux location)
+\addbibresource{~/LaTeX/bibliography.bib} 
+
+\input{glossaries.tex}
+
+\makeglossaries
+
+\let\nomenclature\gls
+\end_preamble
+\options a5paper
+\use_default_options true
+\begin_modules
+biblatex
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Economics of Bitcoin and Cryptocurrenies"
+\pdf_author "Bastiaan Quast"
+\pdf_keywords "bitcoin, cryptocurrencies, economics"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+General Economics
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:general.economics"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this part of the book we will look at the economics at play in the Bitcoin
+ system, as well as in the larger cryptocurrency economy as a whole.
+ We will begin with outlining some general observations about the mechanics
+ which can be observed.
+ In the next few chapters, we will then examine these mechanisms through
+ the lenses of various economic schools of thought.
+\end_layout
+
+\begin_layout Section
+Inflation
+\end_layout
+
+\begin_layout Standard
+The first issue which is always raised about Bitcoin is inflation, or rather
+ the lack of it.
+ Technically it is not entirely true that there is no inflation in Bitcoin,
+ for the immediate future at least.
+ There is inflation through the growth in money supply which is caused by
+ the mining of additional bitcoins.
+ However, the number of bitcoins being mined is decreasing, meaning that
+ the money supply growths less and less every day, until is stop entirely
+ around the year 2140.
+ Furthermore, in case bitcoins are removed from circulation, for example
+ because the private key is lost, or the stored in a wallet of which the
+ password is lost, this permanently decreases the number of bitcoins in
+ circulation, which has a deflationary effect.
+\end_layout
+
+\begin_layout Standard
+In addition the slow mining of bitcoins and the possible permanent loss
+ of them, there is the influx of value from traditional currencies.
+ The fact that Bitcoin is becoming more widely adopted leads to an increased
+ demand for bitcoins, with a fixed money supply, this increased demand can
+ only result in a higher price level.
+ 
+\end_layout
+
+\begin_layout Standard
+At the time of writing around thirteen million bitcoins have been mined,
+ all of this has been mined since the inception of Bitcoin in 2009.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Total Number of Bitcoins in Circulation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:total.bitcoins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename charts/total.bitcoins.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Currently bitcoins are still being mined, however, this is occuring at a
+ decreasing rate.
+ Since the parameters which determine the amount of bitcoins being mined
+ are fixed.
+ We can very accurately predict the growth of the amount of bitcoins in
+ circulation, not taking into account bitcoins that are lost or otherwise
+ taken off the market.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Medium-Term Prediction of bitcoins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:medium.prediction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename charts/short-prediction-bitcoins.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is predicted that the last bitcoin will be mined around the year 2140,
+ at which point around 21 million bitcoins will have been mined.
+\end_layout
+
+\begin_layout Standard
+As mentioned above, there will only ever be around 21 million bitcoins,
+ and some will be lost, this makes the system deflationary, which is troubling
+ to many economists.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Long-Term Prediction of bitcoins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:predicted.bitcoins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename charts/prediction.bitcoins.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "deflation"
+description " "
+
+\end_inset
+
+ in a currency's value provides a disincentive to spend, causing economic
+ slowdown 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "see e.g."
+key "fisher1933debt"
+
+\end_inset
+
+.
+ Since deflation causes the price of products to fall, it incentivises people
+ to save and spend later, which causes the economy to come to a halt.
+ Additionally, these savings are not invested properly, since deflation
+ simultaneously provides a disincentive for borrowers, by making future
+ paybacks more expensive, raising the effective interest rate.
+\end_layout
+
+\end_body
+\end_document

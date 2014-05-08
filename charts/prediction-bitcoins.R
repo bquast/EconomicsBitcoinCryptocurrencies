@@ -17,5 +17,6 @@ View(prediction.bitcoins)
 
 # plot the data
 plot <- ggplot(prediction.bitcoins, aes(Year, End.BTC) )
-plot <- plot + geom_line() + xlab('year') + ylab('bitcoins')
+plot <- plot + geom_line()
+plot <- plot + xlab('year') + ylab('bitcoins')
 print(plot)

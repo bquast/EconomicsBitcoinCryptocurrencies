@@ -286,6 +286,16 @@ name "part:economics"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "GeneralEconomicsEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "DenationalizationEBC.lyx"
 
 \end_inset
