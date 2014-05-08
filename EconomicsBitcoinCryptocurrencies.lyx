@@ -296,6 +296,16 @@ filename "GeneralEconomicsEBC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "InflationEBC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "DenationalizationEBC.lyx"
 
 \end_inset
@@ -316,7 +326,7 @@ filename "GoodReasons.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "InflationEBC.lyx"
+filename "NeoKeynesianEBC.lyx"
 
 \end_inset
 
